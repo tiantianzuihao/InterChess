@@ -1,0 +1,39 @@
+# InterChess 棋书扫描工作台
+
+本地运行的六题书页原型：照片上传 → 六棋盘定位 → 四角修正 → 视觉模型识别 → 棋盘校对 → FEN / PGN / Lichess 分析。
+
+## 启动
+
+Windows PowerShell：
+
+```powershell
+cd D:\InterChess
+powershell -ExecutionPolicy Bypass -File .\start.ps1
+```
+
+打开 http://127.0.0.1:18765 。服务仅监听本机。首次启动需要 Python 3.10+，并联网安装 requirements.txt。
+
+## 识别配置
+
+复制 `config.example.json` 为 `config.local.json`，填写 API 密钥与可用视觉模型。也可通过 OPENAI_API_KEY、OPENAI_MODEL、OPENAI_BASE_URL 环境变量配置（优先于文件）。每次请求读取配置，保存后无需重启。使用 OpenAI Responses API，兼容服务必须支持 `/responses` 与 `input_image`。密钥不进入浏览器，配置文件已 gitignore。不要提交密钥。
+
+尚未配置时，上传、边界标定、手工摆棋、示例校对、导出均可用；自动识别会明确提示配置缺失，不会伪造结果。图片只在点击识别时发送给配置的服务；本地处理不写入照片文件。点击保存进度会把图片和题目保存到当前浏览器 localStorage。
+
+## 使用
+
+1. 上传 2 列 × 3 行整页照片。边界检测是启发式算法，可能误检；检测不足六个时退回六格布局，并提示手动标定。
+2. 检查原图框线。选中题目，点击“重新标定当前题四角”，按左上、右上、右下、左下点击。每题透视校正后的图片才发送给模型；书页弯曲无法用单一透视变换完全消除。
+3. 设置首题编号。当前题号手动输入，不做 OCR；三角标记的含义未确认，行棋方必须手动选择。
+4. 配置 API 后点击“识别整页”。顺序识别未确认的题目，保留已确认题目，失败题显示原因且可重试。
+5. 逐格对照原图。选白/黑棋子后点击格子放置，或选擦除。选择行棋方、确认特殊权利，然后点击“检查并确认”。标准规则检查通过不代表识别一定准确，仍需人工核对。
+6. 复制单题 FEN、打开 Lichess，或将全部已确认题目导出 PGN。Study 账号授权与自动导入尚未实现，PGN 可手动导入。
+
+示例 73–78 是根据用户提供照片预先转录的测试数据，不是实时模型输出，也不表示识别准确率。示例图像位于 `web/sample.jpg`，随源代码提供。
+
+## 验证与限制
+
+运行 `.\.venv\Scripts\python.exe -m unittest discover -s tests` 检查六题示例、FEN 合法性、边界定位与裁剪。
+运行 `node --check web/app.js` 检查前端语法。
+没有 API 密钥时，无法验证真实模型识别质量、网络耗时与账户模型可用性。视觉模型可能漏子或认错，所有识别结果默认待校对。
+
+API 参考：https://developers.openai.com/api/docs/guides/images-vision
