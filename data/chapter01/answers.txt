@@ -1,0 +1,90 @@
+1 Rc8#
+2 Nf4#
+3 Ne4#
+4 Rf3#
+5 Nf6#
+6 Qb1#
+7 Nb3#
+8 Bf4#
+9 Re1#
+10 Be8#
+11 f4#
+12 Bd6#
+13 Ng3#
+14 Ng6#
+15 Qf1+ Ke3 Qe2#
+16 Ra1+ Kg2 Rg1#
+17 Qe3+ Kf1 Qf2#
+18 Qc4+ Ka3 Qa4#
+19 Rh8+ Kf7 g6#
+20 Qe1+ Rxe1 Rxe1#
+21 e5+ Kd5 Rd3#
+22 Qa8+ Kd7 Nc5#
+23 Kf7
+24 Ne7+
+25 Rd6+ Kc4 Rd4#
+26 Qh6+ Rxh6 Bxh6#
+27 Qxf7+ Kxf7 Bxe6# | Qxf7+ Kh8 Bg7# | Qxf7+ Kh8 Qg7#
+28 Bb4+ Ke8 Rg8#
+29 Qh6+ Kg8 Nf6#
+30 Ne6+ Kb8 Rd8# | Ne6+ Kc8 Rd8#
+31 Qh6 Qxf6 Qxf8#
+32 Ng6+ hxg6 Rh2#
+33 Rxe3+ fxe3 Qf1#
+34 Nf6+ Kf8 Qe8# | Nf6+ Kh8 Qh7#
+35 Rxf8+ Kxf8 Qd8#
+36 g4+ hxg3+ Nxg3#
+37 Qh3+ Kg7 Qh8#
+38 Rf4+ Kg5 Nf7# | Rf4+ Kh3 Rh4#
+39 Kg2
+40 Ra7
+41 f6+ Kd4 Rc4#
+42 Bg2+ Kh2 Ng4#
+43 Qg1+ Rxg1 hxg1=Q#
+44 Nxg3+ hxg3 Qh3#
+45 Qh6+ Kg4 Qh5#
+46 Ra6+
+47 Ra1+ Bxa1 Qa2# | Ra1+ Kb2 Qa2# | Ra1+ Kb2 Qa3#
+48 Rf8
+49 Nd6
+50 Qxg6+ hxg6 Bxg6#
+51 Qxb8+ Kxb8 Rc8#
+52 Qg6+ fxg6 hxg6#
+53 Rh8+ Bxh8 Qg8#
+54 g5+ hxg5 Ng4#
+55 Rf1+ Kxf1 Qf2#
+56 Rf5+ gxf5 Rxf5#
+57 Rxf8+ Kxf8 Rd8#
+58 Nf6+ Kh8 Ng6#
+59 Nc6+ Bxc6 Rxd8# | Nc6+ Ka8 b7#
+60 Rxh4+ Kxh4 Qh5#
+61 Rxh2+ Kxh2 Qh3#
+62 Qg5+ Nxg5 hxg5#
+63 Qxh5+ gxh5 Be4#
+64 Bg4+ hxg4 hxg4#
+65 Qxf2+ Kxf2 Bc5#
+66 Qg3+ Nxg3 fxg3# | Qg3+ Nxg3 hxg3#
+67 Re1+ Kf2 e3#
+68 Qh4+ Kxh4 Rh6#
+69 h6+ Kh6 Qf8# | h6+ Kg8 Qd8+ Qe8 Qxe8#
+70 Rg8+ Rxg8 Rxg8#
+71 Rf6+ Ke5 f4#
+72 Rd3+ Ke5 Rf5#
+73 Bg4
+74 Rxf8+ Kxf8 Qh8#
+75 Be4+ Kd4 Bc3#
+76 Qh8+ Kg5 Rf5#
+77 Nd6+ Kd8 Ne6#
+78 g5+ Kh5 Rh3#
+79 Rxc6+ bxc6 Rb8#
+80 Ng3+ Kh4 Rg4#
+81 Bd5+ Kh2 Nf1#
+82 Qf1+ Kh4 g5#
+83 Nf3+ Ke4 Re6#
+84 Ng3+ Kg1 Nh3#
+85 Nh6+ Kf8 g7#
+86 Nf6+ Kh8 Rg8#
+87 Rg3+ Kf4 Rh4# | Rg3+ Kf6 Rg6#
+88 Rh2+ Kg3 Bf4#
+89 Rg7+ Kh8 Rxh6#
+90 Bh7+ Nxh7 Qh7# | Bh7+ Kh8 Nxf7#

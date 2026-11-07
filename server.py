@@ -10,6 +10,7 @@ from pathlib import Path
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 import chess
+import practice
 import cv2
 import numpy as np
 from PIL import Image, ImageOps
@@ -157,6 +158,8 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(raw)
 
     def do_GET(self):
+        if self.path == '/api/practice/catalog':
+            return self.json_response(practice.catalog())
         if self.path == '/api/status':
             cfg = config()
             return self.json_response({'configured': bool(cfg['key']), 'model': cfg['model']})
@@ -173,7 +176,9 @@ class Handler(SimpleHTTPRequestHandler):
             if not 0 < size <= MAX_BODY:
                 raise ValueError('图片过大或请求为空。')
             data = json.loads(self.rfile.read(size))
-            if self.path == '/api/detect':
+            if self.path == '/api/practice':
+                result = practice.play(data)
+            elif self.path == '/api/detect':
                 im = decode_image(data['image'])
                 boxes, detected = detect_boards(im)
                 result = {'image': encode_image(im), 'boxes': boxes, 'detected': detected}

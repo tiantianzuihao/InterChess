@@ -4,3 +4,8 @@ __pycache__/
 config.local.json
 *.log
 engines/
+
+# Generated distribution archives and temporary inspection output.
+/*.zip
+/data/**/viewer-check.js
+/data/**/check*.png

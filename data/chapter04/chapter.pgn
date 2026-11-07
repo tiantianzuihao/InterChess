@@ -1,0 +1,431 @@
+[Event "Chapter 4 - Puzzle 235"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r3r1k1/1q5p/p2PnQp1/5pn1/1PN5/7P/RB3PP1/R5K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qh8+ Kf7 2. Ne5# 1-0
+
+[Event "Chapter 4 - Puzzle 236"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "1r4k1/5p1p/3p2p1/p1qN4/n2Q4/7P/5PP1/4R1K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Ne7+ Kf8 2. Qh8# 1-0
+
+[Event "Chapter 4 - Puzzle 237"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "3rnrk1/p2q1p2/1pp1bppQ/2p5/8/1P1P1N1P/PBP2PP1/R3R1K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Ng5 fxg5 2. Qh8# 1-0
+
+[Event "Chapter 4 - Puzzle 238"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r4rk1/pbq4p/3bP1p1/1p1P4/4Qp2/1P5R/PB4PP/RN4K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg6+ $1 hxg6 2. Rh8# 1-0
+
+[Event "Chapter 4 - Puzzle 239"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "5rqk/p2p2pp/1pbP4/2p2R2/2P5/P1Q4P/1BP2PP1/6K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg7+ $1 Qxg7 2. Rxf8# 1-0
+
+[Event "Chapter 4 - Puzzle 240"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "r3k2r/1b1p2p1/p3p3/5p2/1p3qP1/P2B4/1PP2Q1N/R4RK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxg4+ $1 2. Nxg4 Rh1# 0-1
+
+[Event "Chapter 4 - Puzzle 241"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "8/p5pk/2p5/2Bb1p2/1P3Q1P/P4qP1/5P1K/4r1R1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qh1+ $1 2. Rxh1 Rxh1# 0-1
+
+[Event "Chapter 4 - Puzzle 242"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "2r3k1/1N4bp/6p1/1q1p4/3BR3/5P2/rPPQ2P1/1NKR4 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxb2+ $1 2. Bxb2 Bxb2# 0-1
+
+[Event "Chapter 4 - Puzzle 243"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "3r1r1k/pp4p1/3bB1Pp/5P2/P2pp3/3p4/1P1K4/R5BR w - - 0 1"]
+[SetUp "1"]
+
+1. Rxh6+ $1 gxh6 2. Bxd4+ 1-0
+
+[Event "Chapter 4 - Puzzle 244"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "1k1r3r/pp2b2p/2b1pp1p/2P1P3/4q3/1P3N2/P4PPP/1NR1QRK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxf3 $1 2. gxf3 Rhg8+ ( 2... Rdg8+ 3. Kh1 Bxf3# ) 3. Kh1 Bxf3# 0-1
+
+[Event "Chapter 4 - Puzzle 245"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r4rk1/1bq2p1p/p5p1/1pbPR3/3B4/P2B3Q/1PP3PP/5RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh7+ $1 Kxh7 2. Rh5+ Kg8 3. Rh8# 1-0
+
+[Event "Chapter 4 - Puzzle 246"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "5k2/1b3p2/4p3/1RprP3/2p2P1Q/6P1/2B2P1K/3q4 b - - 0 1"]
+[SetUp "1"]
+
+1... Qh1+ $1 2. Kxh1 Rd1+ 3. Kh2 Rh1# 0-1
+
+[Event "Chapter 4 - Puzzle 247"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "1b2r1k1/p4ppp/8/P1R2b1q/BP3P2/4P3/3Q1P1P/5R1K b - - 0 1"]
+[SetUp "1"]
+
+1... Qf3+ 2. Kg1 Be4 0-1
+
+[Event "Chapter 4 - Puzzle 248"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "6k1/qb1Q1p1p/3Nr1p1/2p5/8/1P4PP/2N2P2/6K1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qa1+ $1 2. Kh2 ( 2. Nxa1 Re1+ 3. Kh2 Rh1# ) 2... Qh1# 0-1
+
+[Event "Chapter 4 - Puzzle 249"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "6k1/1b4pp/2Bp1r2/p1qP1p2/P4P2/4p1P1/1PQ1Rb1P/2N4K b - - 0 1"]
+[SetUp "1"]
+
+1... Qxd5+ 2. Bxd5+ Bxd5+ 3. Qe4 Bxe4# 0-1
+
+[Event "Chapter 4 - Puzzle 250"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "r4qk1/1pp5/p1bp2p1/P1Pnp2p/NP4Pb/4BB1P/6K1/R5QR b - - 0 1"]
+[SetUp "1"]
+
+1... Qxf3+ $1 2. Kxf3 ( 2. Kh2 Nxe3 ) 2... Nf4# ( 2... Nc3# ) 0-1
+
+[Event "Chapter 4 - Puzzle 251"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6k1/5p2/p1q1P1p1/1pp3Q1/2Pr4/1P1r3R/PB4P1/6K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qd8+ $1 Rxd8 ( 1... Kg7 2. Qh8# ) 2. Rh8# 1-0
+
+[Event "Chapter 4 - Puzzle 252"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "2q3k1/Qbb3p1/p4p1p/2p5/2P5/1R4NP/PB3PPK/3r4 b - - 0 1"]
+[SetUp "1"]
+
+1... Rh1+ $1 2. Kxh1 Qxh3+ 0-1
+
+[Event "Chapter 4 - Puzzle 253"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2r2r1k/q4ppp/p1p1p3/2P1Qn2/P4P2/2B3R1/6PP/2R3K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg7+ $1 Nxg7 2. Bxg7+ Kg8 3. Bf6# 1-0
+
+[Event "Chapter 4 - Puzzle 254"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6r1/7k/n1p4p/2P5/1P1RPp1q/8/6Q1/1R3K2 w - - 0 1"]
+[SetUp "1"]
+
+1. Rd7+ Kh8 2. Qb2+ 1-0
+
+[Event "Chapter 4 - Puzzle 255"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2R5/5bpk/p6p/qp1pBP1n/3P1Q1P/P7/r3N1P1/6K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh6+ $1 gxh6 ( 1... Kxh6 2. Rh8# ) 2. Rh8# 1-0
+
+[Event "Chapter 4 - Puzzle 256"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "1r3r1k/p5b1/3pB2p/2pPp3/2P1bqQP/P5R1/5P2/B4RK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxf2+ $1 2. Rxf2 Rb1+ 3. Kh2 Rh1# 0-1
+
+[Event "Chapter 4 - Puzzle 257"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r5k1/1p3p1p/2pp4/7P/nPPN4/8/4Q1Bq/B1b1RK2 w - - 0 1"]
+[SetUp "1"]
+
+1. Qe8+ $1 Rxe8 ( 1... Kg7 2. Nf5# ) 2. Rxe8+ Kg7 3. Nf5# 1-0
+
+[Event "Chapter 4 - Puzzle 258"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "r5k1/pb1p2pp/1p2p3/1N1nn3/P2N4/5qP1/1P3P1P/R2Q1RK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qg2+ $1 2. Kxg2 Nf4+ 3. Kg1 Nh3# 0-1
+
+[Event "Chapter 4 - Puzzle 259"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2r2k2/p3ppb1/q2pbnp1/1p6/2rBP1P1/1NN2P1R/PPP4Q/2K4R w - - 0 1"]
+[SetUp "1"]
+
+1. Rh8+ $1 Bxh8 ( 1... Ng8 2. Rxg8+ Kxg8 3. Qh8+ Bxh8 4. Rxh8# ) 2. Qxh8+ Ng8 3. Qxg8+ $1 Kxg8 4. Rh8# 1-0
+
+[Event "Chapter 4 - Puzzle 260"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "b2r1rk1/p4pp1/1p2p2p/2b1NP2/7q/PQ5P/1P2RP2/RBB3K1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qg3+ $1 2. Kf1 ( 2. Qxg3 Rd1+ 3. Kh2 Rh1# ) 2... Qg2+ 3. Ke1 Qg1# ( 3... Qh1# ) 0-1
+
+[Event "Chapter 4 - Puzzle 261"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r4rk1/5ppp/4p3/1pp1B3/1b1PP3/1R3Q2/q4PPP/5RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qf6 $1 gxf6 2. Rg3+ Kh8 3. Bxf6# 1-0
+
+[Event "Chapter 4 - Puzzle 262"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "5rk1/4R1p1/p2Qn1Pp/1p3q2/8/2B4b/PPP5/1K1R4 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxe6+ $1 Qxe6 ( 1... Kh8 2. Bxg7# ) 2. Rxg7+ Kh8 3. Rh7+ Kg8 4. Rh8# 1-0
+
+[Event "Chapter 4 - Puzzle 263"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "4k3/b2p1p2/2b1pP2/1p6/4BP2/P2Q1N1p/1q4r1/4RR1K b - - 0 1"]
+[SetUp "1"]
+
+1... Rh2+ $1 2. Nxh2 Qg2+ $1 3. Bxg2 hxg2# ( 3... Bxg2# ) 0-1
+
+[Event "Chapter 4 - Puzzle 264"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "1r4k1/1bp3pp/p5q1/4N3/1P1p1n2/5r2/P2Q2PP/R3R1BK b - - 0 1"]
+[SetUp "1"]
+
+1... Rf2 $1 2. Nxg6 ( 2. Qxf2 Bxg2+ ( 2... Qxg2+ 3. Qxg2 Bxg2# ) 3. Qxg2 Qxg2# ) 2... Bxg2# 0-1
+
+[Event "Chapter 4 - Puzzle 265"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "3rnrk1/5ppp/p3p3/1p2Q3/1b2N3/6RP/qP3PPB/5RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. Nf6+ Nxf6 ( 1... Kh8 2. Nxe8 ) 2. Rxg7+ $1 Kxg7 3. Qg5+ Kh8 4. Qxf6+ Kg8 5. Be5 1-0
+
+[Event "Chapter 4 - Puzzle 266"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r3r2k/1p2p1qp/4B1p1/3P2P1/2Pp1B1Q/3R4/p4P1P/6K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh7+ $1 Kxh7 ( 1... Qxh7 2. Be5+ Qg7 3. Rh3# ) 2. Rh3+ Qh6 3. Rxh6+ Kg7 4. Be5+ Kf8 5. Rh8# 1-0
+
+[Event "Chapter 4 - Puzzle 267"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "3r1b2/1pk1n1p1/pNn1p1p1/2P1q3/6P1/4p3/PPPQ1P2/2KR3B w - - 0 1"]
+[SetUp "1"]
+
+1. Qxd8+ $1 Nxd8 2. Rd7+ Kb8 3. Rxd8+ Kc7 ( 3... Ka7 4. Ra8# ) 4. Rd7+ Kb8 5. Rxb7# 1-0
+
+[Event "Chapter 4 - Puzzle 268"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "2b3k1/2p2rp1/7r/2Q1p3/1P1pq3/8/P1P2PPP/4RRK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxg2+ $1 2. Kxg2 Rg6+ 3. Kh1 Bb7+ 4. f3 Rxf3 5. Rg1 Rf1+ 0-1
+
+[Event "Chapter 4 - Puzzle 269"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "5rk1/1b4bp/pp1Np1p1/2P5/2P3q1/P3Pr2/2Q2PP1/1RB2RK1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxg2+ $1 2. Kxg2 Rxf2+ 3. Kg3 ( 3. Kg1 Rxf1+ 4. Kh2 Rh1+ 5. Kg3 Be5+ 6. Kg4 Bf3+ 7. Kg5 Rh5# ) 3... R8f3+ 4. Kg4 ( 4. Kh4 Bf6+ 5. Kg4 h5# ) 4... h5+ 5. Kg5 Rg3+ 6. Kh4 Rg4+ 7. Kh3 Bg2+ 8. Kh2 Be5+ 9. Kg1 Rxf1# 0-1
+
+[Event "Chapter 4 - Puzzle 270"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "1r2rn1k/1p2p1bn/p2qB1p1/3p2P1/7Q/2N1B3/PP2KP2/3R3R w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh7+ $3 Nxh7 2. Rxh7+ Kxh7 3. Rh1+ Bh6 4. Rxh6+ Kg7 5. Bd4+ Kf8 6. Rh8# 1-0

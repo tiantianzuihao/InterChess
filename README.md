@@ -13,6 +13,14 @@ powershell -ExecutionPolicy Bypass -File .\start.ps1
 
 打开 http://127.0.0.1:18765 。服务仅监听本机。首次启动需要 Python 3.10+，并联网安装 requirements.txt。
 
+## 残局答题
+
+启动后打开 http://127.0.0.1:18765/practice.html ，选择章节和题号，点击自己的棋子，再点击目标格。四章共 270 题保存在 `data/chapter01` 至 `data/chapter04`，无需配置 API 或安装引擎即可练习。
+
+练习按书中答案核对，电脑自动走已收录的应手。未收录的合法走法提示需要进一步分析，不直接判错；走完书中变化不一定已经将死。第 231 题题面已核对，答案待复核，暂不判题。当前练习进度不持久保存。
+
+每章同时包含 JSON、PGN、题目和答案原图，以及可直接打开的离线演示 HTML。离线 HTML 用于浏览和逐步演示，走棋答题需运行上述本地服务。根目录 ZIP 为生成文件，不纳入 Git。
+
 ## 识别配置
 
 复制 `config.example.json` 为 `config.local.json`，填写 API 密钥与可用视觉模型。也可通过 OPENAI_API_KEY、OPENAI_MODEL、OPENAI_BASE_URL 环境变量配置（优先于文件）。每次请求读取配置，保存后无需重启。使用 OpenAI Responses API，兼容服务必须支持 `/responses` 与 `input_image`。密钥不进入浏览器，配置文件已 gitignore。不要提交密钥。

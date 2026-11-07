@@ -1,0 +1,690 @@
+{
+  "scope": "已转录的标准记谱答案及已保存的引擎检查；不是原书所有排版符号的逐字转录审计",
+  "counts": {
+    "moves": 264,
+    "check_plus": 83,
+    "checkmate_hash": 94,
+    "double_check_symbol": 0,
+    "actual_double_checks": 1
+  },
+  "issues": [],
+  "lines": [
+    {
+      "number": 1,
+      "branch": 1,
+      "line": "Rc8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 2,
+      "branch": 1,
+      "line": "Nf4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 3,
+      "branch": 1,
+      "line": "Ne4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 4,
+      "branch": 1,
+      "line": "Rf3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 5,
+      "branch": 1,
+      "line": "Nf6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 6,
+      "branch": 1,
+      "line": "Qb1#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 7,
+      "branch": 1,
+      "line": "Nb3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 8,
+      "branch": 1,
+      "line": "Bf4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 9,
+      "branch": 1,
+      "line": "Re1#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 10,
+      "branch": 1,
+      "line": "Be8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 11,
+      "branch": 1,
+      "line": "f4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 12,
+      "branch": 1,
+      "line": "Bd6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 13,
+      "branch": 1,
+      "line": "Ng3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 14,
+      "branch": 1,
+      "line": "Ng6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 15,
+      "branch": 1,
+      "line": "Qf1+ Ke3 Qe2#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 16,
+      "branch": 1,
+      "line": "Ra1+ Kg2 Rg1#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 17,
+      "branch": 1,
+      "line": "Qe3+ Kf1 Qf2#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 18,
+      "branch": 1,
+      "line": "Qc4+ Ka3 Qa4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 19,
+      "branch": 1,
+      "line": "Rh8+ Kf7 g6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 20,
+      "branch": 1,
+      "line": "Qe1+ Rxe1 Rxe1#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 21,
+      "branch": 1,
+      "line": "e5+ Kd5 Rd3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 22,
+      "branch": 1,
+      "line": "Qa8+ Kd7 Nc5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 23,
+      "branch": 1,
+      "line": "Kf7",
+      "ends_in_mate": false
+    },
+    {
+      "number": 24,
+      "branch": 1,
+      "line": "Ne7+",
+      "ends_in_mate": false
+    },
+    {
+      "number": 25,
+      "branch": 1,
+      "line": "Rd6+ Kc4 Rd4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 26,
+      "branch": 1,
+      "line": "Qh6+ Rxh6 Bxh6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 27,
+      "branch": 1,
+      "line": "Qxf7+ Kxf7 Bxe6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 27,
+      "branch": 2,
+      "line": "Qxf7+ Kh8 Bg7#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 27,
+      "branch": 3,
+      "line": "Qxf7+ Kh8 Qg7#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 28,
+      "branch": 1,
+      "line": "Bb4+ Ke8 Rg8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 29,
+      "branch": 1,
+      "line": "Qh6+ Kg8 Nf6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 30,
+      "branch": 1,
+      "line": "Ne6+ Kb8 Rd8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 30,
+      "branch": 2,
+      "line": "Ne6+ Kc8 Rd8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 31,
+      "branch": 1,
+      "line": "Qh6 Qxf6 Qxf8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 32,
+      "branch": 1,
+      "line": "Ng6+ hxg6 Rh2#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 33,
+      "branch": 1,
+      "line": "Rxe3+ fxe3 Qf1#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 34,
+      "branch": 1,
+      "line": "Nf6+ Kf8 Qe8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 34,
+      "branch": 2,
+      "line": "Nf6+ Kh8 Qh7#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 35,
+      "branch": 1,
+      "line": "Rxf8+ Kxf8 Qd8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 36,
+      "branch": 1,
+      "line": "g4+ hxg3+ Nxg3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 37,
+      "branch": 1,
+      "line": "Qh3+ Kg7 Qh8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 38,
+      "branch": 1,
+      "line": "Rf4+ Kg5 Nf7#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 38,
+      "branch": 2,
+      "line": "Rf4+ Kh3 Rh4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 39,
+      "branch": 1,
+      "line": "Kg2",
+      "ends_in_mate": false
+    },
+    {
+      "number": 40,
+      "branch": 1,
+      "line": "Ra7",
+      "ends_in_mate": false
+    },
+    {
+      "number": 41,
+      "branch": 1,
+      "line": "f6+ Kd4 Rc4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 42,
+      "branch": 1,
+      "line": "Bg2+ Kh2 Ng4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 43,
+      "branch": 1,
+      "line": "Qg1+ Rxg1 hxg1=Q#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 44,
+      "branch": 1,
+      "line": "Nxg3+ hxg3 Qh3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 45,
+      "branch": 1,
+      "line": "Qh6+ Kg4 Qh5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 46,
+      "branch": 1,
+      "line": "Ra6+",
+      "ends_in_mate": false
+    },
+    {
+      "number": 47,
+      "branch": 1,
+      "line": "Ra1+ Bxa1 Qa2#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 47,
+      "branch": 2,
+      "line": "Ra1+ Kb2 Qa2#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 47,
+      "branch": 3,
+      "line": "Ra1+ Kb2 Qa3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 48,
+      "branch": 1,
+      "line": "Rf8",
+      "ends_in_mate": false
+    },
+    {
+      "number": 49,
+      "branch": 1,
+      "line": "Nd6",
+      "ends_in_mate": false
+    },
+    {
+      "number": 50,
+      "branch": 1,
+      "line": "Qxg6+ hxg6 Bxg6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 51,
+      "branch": 1,
+      "line": "Qxb8+ Kxb8 Rc8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 52,
+      "branch": 1,
+      "line": "Qg6+ fxg6 hxg6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 53,
+      "branch": 1,
+      "line": "Rh8+ Bxh8 Qg8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 54,
+      "branch": 1,
+      "line": "g5+ hxg5 Ng4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 55,
+      "branch": 1,
+      "line": "Rf1+ Kxf1 Qf2#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 56,
+      "branch": 1,
+      "line": "Rf5+ gxf5 Rxf5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 57,
+      "branch": 1,
+      "line": "Rxf8+ Kxf8 Rd8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 58,
+      "branch": 1,
+      "line": "Nf6+ Kh8 Ng6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 59,
+      "branch": 1,
+      "line": "Nc6+ Bxc6 Rxd8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 59,
+      "branch": 2,
+      "line": "Nc6+ Ka8 b7#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 60,
+      "branch": 1,
+      "line": "Rxh4+ Kxh4 Qh5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 61,
+      "branch": 1,
+      "line": "Rxh2+ Kxh2 Qh3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 62,
+      "branch": 1,
+      "line": "Qg5+ Nxg5 hxg5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 63,
+      "branch": 1,
+      "line": "Qxh5+ gxh5 Be4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 64,
+      "branch": 1,
+      "line": "Bg4+ hxg4 hxg4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 65,
+      "branch": 1,
+      "line": "Qxf2+ Kxf2 Bc5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 66,
+      "branch": 1,
+      "line": "Qg3+ Nxg3 fxg3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 66,
+      "branch": 2,
+      "line": "Qg3+ Nxg3 hxg3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 67,
+      "branch": 1,
+      "line": "Re1+ Kf2 e3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 68,
+      "branch": 1,
+      "line": "Qh4+ Kxh4 Rh6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 69,
+      "branch": 1,
+      "line": "h6+ Kh6 Qf8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 69,
+      "branch": 2,
+      "line": "h6+ Kg8 Qd8+ Qe8 Qxe8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 70,
+      "branch": 1,
+      "line": "Rg8+ Rxg8 Rxg8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 71,
+      "branch": 1,
+      "line": "Rf6+ Ke5 f4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 72,
+      "branch": 1,
+      "line": "Rd3+ Ke5 Rf5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 73,
+      "branch": 1,
+      "line": "Bg4",
+      "ends_in_mate": false
+    },
+    {
+      "number": 74,
+      "branch": 1,
+      "line": "Rxf8+ Kxf8 Qh8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 75,
+      "branch": 1,
+      "line": "Be4+ Kd4 Bc3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 76,
+      "branch": 1,
+      "line": "Qh8+ Kg5 Rf5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 77,
+      "branch": 1,
+      "line": "Nd6+ Kd8 Ne6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 78,
+      "branch": 1,
+      "line": "g5+ Kh5 Rh3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 79,
+      "branch": 1,
+      "line": "Rxc6+ bxc6 Rb8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 80,
+      "branch": 1,
+      "line": "Ng3+ Kh4 Rg4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 81,
+      "branch": 1,
+      "line": "Bd5+ Kh2 Nf1#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 82,
+      "branch": 1,
+      "line": "Qf1+ Kh4 g5#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 83,
+      "branch": 1,
+      "line": "Nf3+ Ke4 Re6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 84,
+      "branch": 1,
+      "line": "Ng3+ Kg1 Nh3#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 85,
+      "branch": 1,
+      "line": "Nh6+ Kf8 g7#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 86,
+      "branch": 1,
+      "line": "Nf6+ Kh8 Rg8#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 87,
+      "branch": 1,
+      "line": "Rg3+ Kf4 Rh4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 87,
+      "branch": 2,
+      "line": "Rg3+ Kf6 Rg6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 88,
+      "branch": 1,
+      "line": "Rh2+ Kg3 Bf4#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 89,
+      "branch": 1,
+      "line": "Rg7+ Kh8 Rxh6#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 90,
+      "branch": 1,
+      "line": "Bh7+ Nxh7 Qh7#",
+      "ends_in_mate": true
+    },
+    {
+      "number": 90,
+      "branch": 2,
+      "line": "Bh7+ Kh8 Nxf7#",
+      "ends_in_mate": true
+    }
+  ],
+  "limitations": [
+    "原书的!、?评价符号未在先前SAN转录中保存，不能声称已逐个验证。",
+    "++在本书表示双将；本次转录答案未使用++。实际双将也可以用标准SAN的+或#表达。",
+    "引擎计算并非每题所有可能分支的穷尽证明。"
+  ],
+  "book_result_symbols": {
+    "verified_count": 54,
+    "values": {
+      "24": "1-0",
+      "26": "1-0",
+      "28": "1-0",
+      "29": "1-0",
+      "30": "1-0",
+      "31": "1-0",
+      "34": "1-0",
+      "36": "1-0",
+      "37": "1-0",
+      "39": "1-0",
+      "40": "1-0",
+      "46": "1-0",
+      "48": "1-0",
+      "49": "1-0",
+      "51": "1-0",
+      "52": "1-0",
+      "53": "1-0",
+      "56": "1-0",
+      "57": "1-0",
+      "58": "1-0",
+      "59": "1-0",
+      "62": "1-0",
+      "63": "1-0",
+      "66": "1-0",
+      "68": "1-0",
+      "69": "1-0",
+      "70": "1-0",
+      "71": "1-0",
+      "73": "1-0",
+      "74": "1-0",
+      "76": "1-0",
+      "80": "1-0",
+      "83": "1-0",
+      "85": "1-0",
+      "87": "1-0",
+      "89": "1-0",
+      "90": "1-0",
+      "15": "0-1",
+      "17": "0-1",
+      "20": "0-1",
+      "23": "0-1",
+      "41": "0-1",
+      "42": "0-1",
+      "43": "0-1",
+      "44": "0-1",
+      "47": "0-1",
+      "55": "0-1",
+      "61": "0-1",
+      "64": "0-1",
+      "65": "0-1",
+      "78": "0-1",
+      "82": "0-1",
+      "84": "0-1",
+      "88": "0-1"
+    },
+    "method": "按答案照片转录胜负标记，与初始行棋方及Stockfish强制将杀结果核对"
+  }
+}
