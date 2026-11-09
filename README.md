@@ -45,3 +45,11 @@ powershell -ExecutionPolicy Bypass -File .\start.ps1
 没有 API 密钥时，无法验证真实模型识别质量、网络耗时与账户模型可用性。视觉模型可能漏子或认错，所有识别结果默认待校对。
 
 API 参考：https://developers.openai.com/api/docs/guides/images-vision
+
+
+## 两个练习入口
+
+- 首页 `/`：残局练习、人机博弈两个入口。
+- `/practice.html`：棋书残局练习。
+- `/duel.html`：本地 Stockfish，8 档难度、白/黑/随机、无限时或分钟＋加秒。详见 ENGINES.md。
+- 原棋书扫描工作台移到 `/scanner.html`。

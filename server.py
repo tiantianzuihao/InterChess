@@ -11,6 +11,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 import chess
 import practice
+import duel
 import cv2
 import numpy as np
 from PIL import Image, ImageOps
@@ -182,6 +183,8 @@ class Handler(SimpleHTTPRequestHandler):
             data = json.loads(self.rfile.read(size))
             if self.path == '/api/practice':
                 result = practice.play(data)
+            elif self.path == '/api/duel':
+                result = duel.handle(data)
             elif self.path == '/api/detect':
                 im = decode_image(data['image'])
                 boxes, detected = detect_boards(im)
