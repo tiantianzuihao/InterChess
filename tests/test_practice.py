@@ -1,4 +1,6 @@
 import unittest
+from unittest.mock import patch
+from datetime import datetime
 import practice
 
 
@@ -32,7 +34,16 @@ class PracticeTests(unittest.TestCase):
     def test_answers_hidden_until_requested(self):
         request = {'chapter':4,'number':235}
         self.assertNotIn('answers', practice.play(request))
-        self.assertTrue(practice.play({**request,'action':'reveal'})['answers'])
+        with patch('practice.datetime') as clock:
+            clock.now.return_value = datetime(2026, 11, 9, 21, 27)
+            for password in (None, '', '2126', '2128', 2127):
+                with self.assertRaises(ValueError):
+                    practice.play({**request, 'action':'reveal', 'password':password})
+            self.assertTrue(practice.play({**request,'action':'reveal','password':'2127'})['answers'])
+            clock.now.return_value = datetime(2026, 11, 10, 0, 5)
+            self.assertTrue(practice.play({**request,'action':'reveal','password':'0005'})['answers'])
+            with self.assertRaises(ValueError):
+                practice.play({**request,'action':'reveal','password':'2127'})
         with self.assertRaises(ValueError):
             practice.play({**request,'history':['a1a8']})
 

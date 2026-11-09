@@ -145,6 +145,10 @@ Include every visible piece, no invented pieces. Mark ambiguous squares in uncer
         raise ValueError('模型未返回有效棋盘数据，请重试或手动校对。') from None
 
 class Handler(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(STATIC), **kwargs)
 

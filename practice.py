@@ -1,5 +1,6 @@
 """Local, stateless book-line practice. Never equate an unlisted move with a loss."""
 import json
+from datetime import datetime
 from pathlib import Path
 import chess
 
@@ -18,6 +19,24 @@ def catalog():
             {'number': p['number'], 'points': p['points'], 'pending': p.get('review_status', {}).get('answer') == 'pending_review'}
             for p in data['puzzles']]})
     return result
+
+def describe_moves(fen, moves):
+    board = chess.Board(fen)
+    result = []
+    for uci in moves:
+        move = chess.Move.from_uci(uci)
+        if move not in board.legal_moves:
+            break  # Pending book lines can contain an unresolved illegal move.
+        victim = chess.Piece(chess.PAWN, not board.turn) if board.is_en_passant(move) else board.piece_at(move.to_square)
+        result.append({'color': 'white' if board.turn else 'black',
+                       'piece': board.piece_at(move.from_square).symbol(),
+                       'from': chess.square_name(move.from_square),
+                       'to': chess.square_name(move.to_square),
+                       'captured': victim.symbol() if victim else None,
+                       'san': board.san(move)})
+        board.push(move)
+    return result
+
 
 def play(data):
     puzzles = chapter(data.get('chapter'))['puzzles']
@@ -65,12 +84,32 @@ def play(data):
     elif action not in ('state', 'reveal'):
         raise ValueError('操作无效')
     complete = any(len(line)==len(history) for line in candidates)
+    captured = {'white': [], 'black': []}
+    last_capture = None
+    replay = chess.Board(p['fen'])
+    for index, uci in enumerate(history):
+        # Keep the player's capture visible through the automatic reply.
+        if index % 2 == 0:
+            last_capture = None
+        m = chess.Move.from_uci(uci)
+        victim = chess.Piece(chess.PAWN, not replay.turn) if replay.is_en_passant(m) else replay.piece_at(m.to_square)
+        if victim and victim.color != replay.turn:
+            captured['white' if replay.turn else 'black'].append(victim.symbol())
+            last_capture = {'square':chess.square_name(m.to_square), 'piece':victim.symbol()}
+        replay.push(m)
     result = {'history':history, 'san':sans, 'fen':board.fen(),
+        'captured':captured,
+        'move_details':describe_moves(p['fen'], history),
+        'last_capture':last_capture,
+        'checked_king':chess.square_name(board.king(board.turn)) if board.is_check() else None,
         'pieces':{chess.square_name(s):pc.symbol() for s,pc in board.piece_map().items()},
         'legal_moves':[move.uci() for move in board.legal_moves], 'orientation':p['turn'],
         'status':status, 'complete':complete, 'checkmate':board.is_checkmate(), 'pending':pending,
         'number':p['number'], 'points':p['points'], 'turn':'white' if board.turn else 'black'}
     if action == 'reveal':
+        if data.get('password') != datetime.now().strftime('%H%M'):
+            raise ValueError('密码不正确，请重新输入。')
         result['answers'] = [line.get('transcribed_notation', ' '.join(line['san'])) for line in p['book_lines']]
+        result['answer_details'] = [describe_moves(p['fen'], line['uci']) for line in p['book_lines']]
         result['notes'] = p['notes']
     return result
