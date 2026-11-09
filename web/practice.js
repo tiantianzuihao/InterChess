@@ -1,13 +1,16 @@
 const $=id=>document.getElementById(id);
 const symbols={K:'♔',Q:'♕',R:'♖',B:'♗',N:'♘',P:'♙',k:'♚',q:'♛',r:'♜',b:'♝',n:'♞',p:'♟'};
 let catalog=[],state=null,selected=null,busy=false,promotionPrefix='';
-function formatMove(move){return (move.color==='white'?'白方':'黑方')+'：'+symbols[move.piece]+' '+move.from+'->'+move.to+(move.captured?' 吃 '+symbols[move.captured]:'')+'（'+move.san+'）';}
+function formatMove(move){return (move.color==='white'?'白方':'黑方')+'：'+symbols[move.piece]+' '+move.from+'->'+move.to+(move.san.includes('#')?' 将死':move.san.includes('+')?' 将军':move.captured?' 吃 '+symbols[move.captured]:'')+'（'+move.san+'）';}
 function lock(value){busy=value;for(const id of ['chapter','puzzle','prev','next','restart','reveal'])$(id).disabled=value;}
 async function request(action='state',move='',password=''){
+ if(action==='move')practiceSound.unlock();
+ const previousCount=state?.history.length||0;
  lock(true);selected=null;
  try{
   const response=await fetch('/api/practice',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chapter:+$('chapter').value,number:+$('puzzle').value,history:state?.history||[],action,move,password})});
   const data=await response.json();if(!response.ok)throw Error(data.error||'请求失败');state=data;render();
+  if(action==='move'&&data.status==='correct')practiceSound.playMoves(data.move_details.slice(previousCount));
   if(action==='reveal'){$('answer').replaceChildren();for(const [i,line] of data.answers.entries()){const p=document.createElement('p');p.textContent='变化 '+(i+1)+'：';$('answer').append(p);const details=data.answer_details[i];for(const move of details){const row=document.createElement('p');row.textContent=formatMove(move);$('answer').append(row);}if(!details.length||state.pending){const original=document.createElement('p');original.textContent='书中记录：'+line;$('answer').append(original);}}for(const note of data.notes){const p=document.createElement('p');p.textContent=note;$('answer').append(p);}$('answer').hidden=false;$('answerPasswordDialog').close();}
  }catch(error){if(action==='reveal'){$('passwordError').textContent=error.message;$('answerPassword').value='';$('answerPassword').focus();}else{$('feedback').textContent=error.message;}}finally{lock(false);}
 }
@@ -64,8 +67,10 @@ function choose(square){
  if(options.some(m=>m.length===5)){promotionPrefix=prefix;$('promotion').showModal();return;}
  request('move',prefix);
 }
-function reset(){state=null;selected=null;$('answer').hidden=true;request();}
+function reset(){practiceSound.stop();state=null;selected=null;$('answer').hidden=true;request();}
 function chapterChanged(){const c=catalog.find(c=>c.number===+$('chapter').value);$('puzzle').replaceChildren();for(const p of c.puzzles){const o=document.createElement('option');o.value=p.number;o.textContent='第 '+p.number+' 题'+(p.pending?'（待复核）':'');$('puzzle').append(o);}reset();}
+function updateSoundButton(){$('soundToggle').textContent=practiceSound.enabled?'声音：开':'声音：关';$('soundToggle').setAttribute('aria-pressed',String(practiceSound.enabled));}
+$('soundToggle').onclick=()=>{practiceSound.toggle();updateSoundButton();};updateSoundButton();
 $('chapter').onchange=chapterChanged;$('puzzle').onchange=reset;$('restart').onclick=reset;$('reveal').onclick=()=>{$('answer').hidden=true;$('answerPassword').value='';$('passwordError').textContent='';$('answerPasswordDialog').showModal();$('answerPassword').focus();};
 $('answerPasswordForm').onsubmit=async event=>{event.preventDefault();if(busy)return;$('confirmAnswer').disabled=true;await request('reveal','',$('answerPassword').value);$('confirmAnswer').disabled=false;};
 $('cancelAnswer').onclick=()=>{$('answerPasswordDialog').close();$('answerPassword').value='';};
