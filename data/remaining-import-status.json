@@ -13,7 +13,7 @@
       "first": 355,
       "last": 384,
       "count": 30,
-      "status": "recognition_draft_requires_manual_review",
+      "status": "photo_reviewed_rules_validated_imported",
       "photos": 8
     },
     {
@@ -45,5 +45,5 @@
       "5.jpg"
     ]
   },
-  "next_step": "Chapter 6 imported. Chapters 7-9 remain unverified drafts; review one chapter at a time."
+  "next_step": "Chapters 6-7 imported. Chapters 8-9 remain unverified drafts; review one chapter at a time."
 }

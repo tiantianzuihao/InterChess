@@ -1,0 +1,26 @@
+{
+  "puzzles": 30,
+  "book_lines": 48,
+  "symbol_checks": {
+    "moves": 260,
+    "check": 108,
+    "mate": 41,
+    "double_check": 0
+  },
+  "errors": [],
+  "incomplete_book_lines": [
+    360,
+    363,
+    367,
+    370,
+    380,
+    384
+  ],
+  "engine_mate_found": 30,
+  "engine_needs_review": [],
+  "limitations": [
+    "引擎短时搜索为辅助检查，不证明照片逐格识别完全正确。",
+    "原书省略的吃子 x 已规范化；原书评价 !/? 保留，不以走棋规则判定其好坏。",
+    "未补造原书省略的应手；获胜结果不等同于局面已经将死。"
+  ]
+}

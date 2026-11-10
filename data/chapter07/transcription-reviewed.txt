@@ -1,0 +1,30 @@
+355 w f8r h8k a7p b7p h7n b6n g6Q d5b e5q g4R c3P g3R a2P f2P g2P h2P g1K
+356 w f8r g8k f7p g7p a6p d5p e5P h5R b4p f4R g4Q h4P d3P a2r d2q g2P h1K
+357 b h8k c7R f7p g7p d6p h6p a5p f5P g4n a3P b3P h3P c2B d2r e2r c1R h1K
+358 b f8r g8k c7p e7R g7b b6p d6p b5N d5P b4P c4P g4P h4p a3P e3R f2r g1K
+359 w f8r h8k d7R h7p d6p e6Q f6b g6p a5q d5P f5p c4p f2P g2P h2P e1R g1K
+360 b c8k e8r h8r b7p c7q f7p a6B c6b d5p e3b f3P g3P a2P b2P c2Q d2N g2K a1R c1R
+361 b b8r g8k b7r d7b e7q f7p g7p h7p f5P a4p c4R f4N g4P f3N b2P c2P d2Q h2P a1K b1R
+362 b g8k b7Q f7p g7p b6p d6B g6p h6b c4q e4R g3P h3P a2r g2r b1R f1N h1K
+363 w b8n f8q h8k a7r d7r h7p a6p e6Q b5p c3P g3R a2P f2P g2P h2P e1R g1K
+364 w d8r g8k c7R e7R g7p h7p a6r a5n f5P a4P c4p g4P c3q d3p f3Q h3P c2B f2P g1K
+365 b f8r h8k h7p e6p g6r d5p e5P h5q a4p d4Q f4P a3P f3p h3P e2b f2P h2K a1R g1R h1B
+366 w a8r e8N h8k a7p c7R e7R c6p c5n f5r h5p b2P c2P b1K
+367 w a8r f8b h8Q d7R f7p g7p e6k h6n e5p g5p e4P b3P c3q h3P a2P f2P g2P d1R g1K
+368 b g8k d7q f7p h7p b6B d6P g6p a5p c4P d4Q f4P f3B a2r e2r h2P f1R g1K
+369 w e8r g8k b7p f7p g6p h6p d5Q g5q c4p d3P f3R b2P e2r g2P h2P f1R h1K
+370 b b8k c8q g8r a7p c7p a6P b6p c6R b5P e4Q f4p d3P e2P g2r h2p c1R h1K
+371 b c8k g8r a7Q c6p d6q e6p f6p c5N d5p f5p g5r d4P e3P h3P a2P c2P e2B g2P h1K
+372 w f8r a7p c7n f7p g7k c6q e6p g6p d5p e5P g5P h5p d4P f4R h4P a3Q a2P f1R g1K
+373 b a8R d8Q b7r f7p g7k g6p h6p d4P e4n e3P h3P c2r f2P g2P h2K f1q
+374 b e8r g8k b7p c7q d7R f7p h7p g6p c5P a4Q a3P e3r f3P h3P a2B b2P f2P g1K
+375 w d8n e8r f8b a7p f7p h7k f6P h6p b5p g4R h3R a2P b2P c2p d2B e2p g2P h2P e1K
+376 w c8n e8k f8r a7r h7R b6q c6p d6Q e6P h6p a5p d5p e5P f5p b4p f4P h3N a2P b2P c2P h2P b1K g1R
+377 w a8r f8r a7p b7b e7b f7p b6p h6k d5q e5N h5p d4P e4p f4P e3P a2P b2P d2K g2R c1R d1Q
+378 b c8k d8r f8b a7p b7p c7p f7p g7p g6r e5P h5q c4P d4P h4N f3Q h3K a2P b2P f2R h2P a1R
+379 w e8r f8r g8k b7R e7R f7p a6p d6q f6P g6p d5p g5Q f2P g2P g1K
+380 b h8r a7p b7p f7k h7r b6b e6p h6q d5p g5p a4P d4P f4p g4P b3P d3Q f3P b2B c2R g2B c1R g1K
+381 w d8R g7k h7p a6p f6p b5p e5q f5P g5p b4P e4b a3P g3P h3P c2r d2Q g2B h2K d1R
+382 w a8r g8r a7p h7R c6p f6k g6p b5p d5q f5p d4P a3P f3P b2P f2Q g2P c1K h1R
+383 w h8b a7p c7r e7k b6p e6P g6R h6p e5N f5n f4P d3R b2P h2P e1K
+384 b g8k a7p g7p h7p b6p d6p f6r h6q d5R e5n g5r b4P e4P f4p b3N f3P a2P c2Q g2P h2P a1R g1K
