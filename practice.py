@@ -6,14 +6,17 @@ import chess
 
 ROOT = Path(__file__).resolve().parent
 
+def chapter_numbers():
+    return sorted(int(p.parent.name[7:]) for p in (ROOT / 'data').glob('chapter[0-9][0-9]/chapter.json'))
+
 def chapter(number):
-    if type(number) is not int or number not in range(1, 5):
+    if type(number) is not int or number not in chapter_numbers():
         raise ValueError('章节无效')
     return json.loads((ROOT / f'data/chapter{number:02}/chapter.json').read_text('utf-8'))
 
 def catalog():
     result = []
-    for n in range(1, 5):
+    for n in chapter_numbers():
         data = chapter(n)
         result.append({'number': n, 'title': data['chapter']['title'], 'puzzles': [
             {'number': p['number'], 'points': p['points'], 'pending': p.get('review_status', {}).get('answer') == 'pending_review'}

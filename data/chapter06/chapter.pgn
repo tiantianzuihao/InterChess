@@ -1,0 +1,647 @@
+[Event "Chapter 6 - Puzzle 301"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "4r1kb/p2q3p/4N1r1/2pp1Q2/2P5/5RP1/P4P2/5RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qf8+ $1 Rxf8 2. Rxf8# 1-0
+
+[Event "Chapter 6 - Puzzle 302"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "k7/1RP5/3N4/K4b2/8/8/2r5/8 w - - 0 1"]
+[SetUp "1"]
+
+1. Rb8+ Ka7 2. Nb5# 1-0
+
+[Event "Chapter 6 - Puzzle 303"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "8/1R1B3p/1p4P1/6kn/8/5P1K/7P/1r6 b - - 0 1"]
+[SetUp "1"]
+
+1... Rg1 $1 0-1
+
+[Event "Chapter 6 - Puzzle 304"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "5r1k/p3Q1pp/5r2/2p2p2/5q2/8/P1B1RbPP/5R1K b - - 0 1"]
+[SetUp "1"]
+
+1... Qxh2+ $1 2. Kxh2 Rh6+ 3. Qh4 Rxh4# 0-1
+
+[Event "Chapter 6 - Puzzle 305"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2r3rk/1bq2p1p/pn1p2pQ/1p1PpN2/4P1R1/P1Nn3P/1P3PP1/2R3K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh7+ $1 Kxh7 2. Rh4# 1-0
+
+[Event "Chapter 6 - Puzzle 306"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6R1/r1k4p/pN1rpp2/P7/1p1Pb3/3N1P2/1P4PP/6K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Rc8+ Kb7 2. Nc5# 1-0
+
+[Event "Chapter 6 - Puzzle 307"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2rnk3/p4p2/1p3R2/3NPp2/3P1K2/2P5/6r1/7R w - - 0 1"]
+[SetUp "1"]
+
+1. Rh8+ Kd7 2. Rd6# 1-0
+
+[Event "Chapter 6 - Puzzle 308"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "3r1rk1/p6p/2p3p1/1pp5/4P3/1P1n1R2/P1PN1P1q/R2Q1KN1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxf2+ $1 2. Rxf2 Rxf2# 0-1
+
+[Event "Chapter 6 - Puzzle 309"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "5k2/1R6/4P1K1/3n1N2/1r6/5P2/8/8 w - - 0 1"]
+[SetUp "1"]
+
+1. Rf7+ Kg8 ( 1... Ke8 2. Nd6+ Kd8 3. Rd7# ) 2. Nh6+ Kh8 3. Rh7# ( 3. Rf8# ) 1-0
+
+[Event "Chapter 6 - Puzzle 310"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2q2rk1/1b2bp1p/p3p1p1/4B3/1PrPn3/2NR3Q/2B2PPP/3R2K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh7+ $1 Kxh7 2. Rh3+ Kg8 3. Rh8# 1-0
+
+[Event "Chapter 6 - Puzzle 311"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "8/5R2/n3k1p1/4N2p/3KPP1P/8/P5r1/8 w - - 0 1"]
+[SetUp "1"]
+
+1. f5+ gxf5 2. exf5+ Kd6 3. Rd7# 1-0
+
+[Event "Chapter 6 - Puzzle 312"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "5k2/3R4/4P1p1/5nNp/5P2/r6P/5K2/8 w - - 0 1"]
+[SetUp "1"]
+
+1. Nh7+ Ke8 ( 1... Kg8 2. Nf6+ Kh8 ( 2... Kf8 3. Rf7# ) 3. Rh7# ) 2. Nf6+ Kf8 3. Rf7# 1-0
+
+[Event "Chapter 6 - Puzzle 313"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "5r1r/R1R2pk1/5bp1/3p3q/NQ1Pp1b1/1P2P1P1/P4PB1/5K2 b - - 0 1"]
+[SetUp "1"]
+
+1... Qh1+ $1 2. Bxh1 Rxh1+ 3. Kg2 Bf3# 0-1
+
+[Event "Chapter 6 - Puzzle 314"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "5q1k/p1r2rb1/1p2pN1p/3pPpQ1/2nP1P2/2P5/6RP/2B3RK w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh6+ $1 Bxh6 2. Rg8+ Qxg8 3. Rxg8# 1-0
+
+[Event "Chapter 6 - Puzzle 315"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "7k/pp3R1n/2p4b/4r3/4N3/6R1/PP5P/7K w - - 0 1"]
+[SetUp "1"]
+
+1. Rxh7+ $1 Kxh7 2. Nf6+ Kh8 3. Rg8# 1-0
+
+[Event "Chapter 6 - Puzzle 316"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "4bk2/4qpp1/2n1pN1p/3pP3/3P1RQP/r3P1P1/6B1/6K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg7+ $1 Kxg7 2. Rg4+ Kf8 ( 2... Kh8 3. Rg8# ) 3. Rg8# 1-0
+
+[Event "Chapter 6 - Puzzle 317"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6rk/6pp/2p2p2/2B2P1q/1P2Pb2/1Q5P/2P2P2/3R3K w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg8+ $1 Kxg8 2. Rd8+ Kf7 3. Rf8# 1-0
+
+[Event "Chapter 6 - Puzzle 318"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r3r1k1/p6R/5RP1/1p3N2/5pn1/8/PP6/1K6 w - - 0 1"]
+[SetUp "1"]
+
+1. Rf8+ $3 Rxf8 ( 1... Kxf8 2. Rh8# ) 2. Ne7# 1-0
+
+[Event "Chapter 6 - Puzzle 319"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "8/5pk1/5N2/4P1KR/r4P2/4b1p1/6P1/8 w - - 0 1"]
+[SetUp "1"]
+
+1. Rh7+ Kf8 2. Rh8+ Kg7 ( 2... Ke7 3. Re8# ) 3. Rg8# 1-0
+
+[Event "Chapter 6 - Puzzle 320"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "7k/1q2r1pp/p3pN2/5pQ1/4bP1P/2P3R1/P5PK/8 w - - 0 1"]
+[SetUp "1"]
+
+1. Qh6 $1 gxh6 ( 1... gxf6 2. Qf8# ) ( 1... g6 2. Qf8# ) 2. Rg8# 1-0
+
+[Event "Chapter 6 - Puzzle 321"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "5rk1/4Rp1p/p3NQp1/2r1q3/6P1/2P4P/P4P2/6K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxf7+ $1 Rxf7 2. Re8+ Rf8 3. Rxf8# 1-0
+
+[Event "Chapter 6 - Puzzle 322"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r4bN1/pp5k/3p4/2p3Qn/4b3/8/PP5q/R1B1K1R1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh5+ $1 Qxh5 2. Nf6+ Kh8 3. Rg8# 1-0
+
+[Event "Chapter 6 - Puzzle 323"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "3r1rk1/1p1q2p1/p1p1n2p/2P4B/1PP5/P3Q1Pb/1B3N1P/3R2K1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxd1+ $1 2. Bxd1 ( 2. Nxd1 Rf1# ) 2... Rxd1+ 3. Nxd1 Rf1# 0-1
+
+[Event "Chapter 6 - Puzzle 324"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2q1bbk1/5Npr/1p2p1Q1/p1ppN3/3P1PR1/2P1n3/PP5P/4B1K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxh7+ Kxh7 2. Rh4+ Kg8 3. Rh8# 1-0
+
+[Event "Chapter 6 - Puzzle 325"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2r1k2r/q4p1p/p1n1p1p1/2b1P1B1/Q7/P7/2P1B1PP/3R1R1K w - - 0 1"]
+[SetUp "1"]
+
+1. Qxc6+ $1 Rxc6 ( 1... Kf8 2. Qxc8+ Kg7 3. Bf6+ ) 2. Rd8# 1-0
+
+[Event "Chapter 6 - Puzzle 326"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "7k/1p2r1bp/2p1B1p1/4P2n/1q1P4/pP2B2P/P4QPK/5R2 w - - 0 1"]
+[SetUp "1"]
+
+1. Qf8+ $1 Bxf8 2. Rxf8+ Kg7 3. Rg8# 1-0
+
+[Event "Chapter 6 - Puzzle 327"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6k1/p4pp1/5np1/8/2R1N1P1/1P2P2P/r4P2/6K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Rc8+ Kh7 2. Ng5+ Kh6 3. Nxf7+ Kh7 4. Rh8# 1-0
+
+[Event "Chapter 6 - Puzzle 328"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r5bQ/qp3kpB/3p1b1p/2p2P2/8/1Pn2NP1/3K3P/4R3 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg8+ $1 Rxg8 2. Bg6+ Kf8 3. Re8# 1-0
+
+[Event "Chapter 6 - Puzzle 329"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "7k/2R3p1/4N3/4nPK1/6P1/8/8/4r3 w - - 0 1"]
+[SetUp "1"]
+
+1. Rc8+ Kh7 2. Nf8+ Kg8 3. Ng6+ Kf7 ( 3... Kh7 4. Rh8# ) 4. Rf8# 1-0
+
+[Event "Chapter 6 - Puzzle 330"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "4n3/8/pN1p2k1/2pP2p1/2P2PK1/1P3R1P/4r3/8 b - - 0 1"]
+[SetUp "1"]
+
+1... Nf6+ 2. Kg3 Nh5+ ( 2... Ne4+ ) 3. Kg4 Rg2+ 4. Rg3 Rxg3# 0-1
+
+[Event "Chapter 6 - Puzzle 331"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6r1/pn1r3k/2p2B2/2p1pP1P/2P1P3/1pbPK1Q1/1q6/3R3R w - - 0 1"]
+[SetUp "1"]
+
+1. Qg6+ $1 Rxg6 2. hxg6+ Kg8 3. Rh8# 1-0
+
+[Event "Chapter 6 - Puzzle 332"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6r1/pp3p1k/4bQ1p/2p2P1N/2P5/1P5P/1P3P1q/3R1K2 w - - 0 1"]
+[SetUp "1"]
+
+1. Qg7+ $1 Rxg7 2. Nf6+ Kh8 3. Rd8+ Rg8 4. Rxg8# 1-0
+
+[Event "Chapter 6 - Puzzle 333"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "2r2bk1/r4pp1/pp2p2p/4P2P/P3NQ2/1P4R1/2q3P1/5R1K w - - 0 1"]
+[SetUp "1"]
+
+1. Nf6+ Kh8 2. Qxh6+ $1 gxh6 3. Rg8# 1-0
+
+[Event "Chapter 6 - Puzzle 334"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6r1/1p1r1pkp/p2Np3/4n3/2P4Q/5R2/P2q2PP/5RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qf6+ Kf8 2. Qxf7+ $1 Nxf7 3. Rxf7+ Rxf7 4. Rxf7# 1-0
+
+[Event "Chapter 6 - Puzzle 335"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6k1/R6p/p3Npp1/1p2pP2/1P6/1P5r/1n2PP1P/5K2 w - - 0 1"]
+[SetUp "1"]
+
+1. Rg7+ Kh8 2. Rf7 $1 h5 3. fxg6 1-0
+
+[Event "Chapter 6 - Puzzle 336"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "3r1k2/1R6/p4K2/1p3N2/8/P4n2/7P/8 w - - 0 1"]
+[SetUp "1"]
+
+1. Rf7+ Kg8 ( 1... Ke8 2. Ng7# ) 2. Ne7+ Kh8 3. Ng6+ Kg8 4. Rg7# 1-0
+
+[Event "Chapter 6 - Puzzle 337"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "1N4k1/6pp/1p3p2/2nR1P2/p3N1b1/P1K5/7r/8 w - - 0 1"]
+[SetUp "1"]
+
+1. Rd8+ Kf7 2. Nd6+ Ke7 3. Nc6# 1-0
+
+[Event "Chapter 6 - Puzzle 338"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "8/2R5/5kp1/6Np/r7/1n4P1/5PKP/8 w - - 0 1"]
+[SetUp "1"]
+
+1. f4 $1 Nd4 ( 1... Kf5 2. Rf7+ Kg4 3. h3# ) ( 1... Rxf4 2. gxf4 Kf5 3. Rf7+ Kg4 4. h3+ Kh4 5. Nf3# ) ( 1... Ra2+ 2. Kh3 Rxh2+ 3. Kxh2 Kf5 4. Kh3 ) 2. Rf7# 1-0
+
+[Event "Chapter 6 - Puzzle 339"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "8/pb2q1kn/3p1rpN/2pP4/1p2Bb2/6Q1/P6P/6RK w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg6+ $1 Rxg6 2. Rxg6+ Kf8 ( 2... Kh8 3. Rg8# ) 3. Rg8# 1-0
+
+[Event "Chapter 6 - Puzzle 340"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r2rnnk1/1bq1b2p/pp1pp1p1/6P1/1PPNP3/2NBBQ2/P6P/2R2RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qf7+ Kh8 2. Qxf8+ $1 Bxf8 3. Rxf8+ Kg7 4. Nxe6# 1-0
+
+[Event "Chapter 6 - Puzzle 341"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "2r1k2r/1p2pp1p/1p2b1pQ/4b3/3n4/2qB4/P1P2PPP/2KRR3 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxc2+ $1 2. Bxc2 Rxc2+ 3. Kb1 Bxa2+ 4. Ka1 Nb3# 0-1
+
+[Event "Chapter 6 - Puzzle 342"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "4r1kr/1p4qp/p1b3pQ/3p4/3N1R2/1P3P2/1PP1R1P1/2K5 w - - 0 1"]
+[SetUp "1"]
+
+1. Rxe8+ Bxe8 2. Qxg7+ Kxg7 3. Ne6+ Kg8 ( 3... Kh6 4. Rh4# ) 4. Rf8# 1-0
+
+[Event "Chapter 6 - Puzzle 343"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "q2b1rk1/6pp/p5r1/1p1P1N2/8/1PQ5/P5PP/4RR1K w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg7+ $1 Rxg7 2. Nh6+ Kh8 3. Rxf8+ Rg8 4. Rxg8# 1-0
+
+[Event "Chapter 6 - Puzzle 344"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "R7/3N1bpk/5p2/3p1N1p/3Pn2P/4P1P1/5PK1/1r6 w - - 0 1"]
+[SetUp "1"]
+
+1. Nf8+ Kh8 2. Ng6+ Kh7 3. Rh8+ Kxg6 4. Ne7# 1-0
+
+[Event "Chapter 6 - Puzzle 345"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r1b1k3/3p1r2/p2Rp1Q1/5pB1/1p2q3/8/PPP3PP/1K1R4 w - - 0 1"]
+[SetUp "1"]
+
+1. Rxe6+ $1 Qxe6 ( 1... dxe6 2. Rd8# ) ( 1... Kf8 2. Bh6+ Rg7 3. Qxg7# ( 3. Qe8# ) ) 2. Qxe6+ dxe6 ( 2... Kf8 3. Bh6+ ) 3. Rd8# 1-0
+
+[Event "Chapter 6 - Puzzle 346"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "8/1P6/4p2p/4P2k/3P1p1p/2B1n1r1/7K/2R5 b - - 0 1"]
+[SetUp "1"]
+
+1... Ng4+ 2. Kh1 Nf2+ 3. Kh2 f3 4. Rg1 Rh3# 0-1
+
+[Event "Chapter 6 - Puzzle 347"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "1r3r2/1q3p1k/3p2np/ppn2R1N/4P2P/P1PP2P1/3Q4/5RK1 w - - 0 1"]
+[SetUp "1"]
+
+1. Nf6+ Kg7 ( 1... Kh8 2. Qxh6# ) 2. Qxh6+ $1 Kxh6 3. Rh5+ Kg7 4. Rh7# 1-0
+
+[Event "Chapter 6 - Puzzle 348"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "6k1/p6R/2p2r2/qp4NP/2nP4/2P5/P4PP1/4R1K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Re8+ Rf8 2. h6 $1 Rxe8 3. Rg7+ Kf8 ( 3... Kh8 4. Nf7# ) 4. Nh7# 1-0
+
+[Event "Chapter 6 - Puzzle 349"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r1q3k1/1b4B1/p2pp1Pp/6b1/1p2PQ2/1PN5/1PP5/2KR3R w - - 0 1"]
+[SetUp "1"]
+
+1. Qxg5 $1 hxg5 ( 1... Qc7 2. Bf6 Kf8 3. Qxh6+ Ke8 4. Qf8+ $1 ) 2. Bf6 1-0
+
+[Event "Chapter 6 - Puzzle 350"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "kr6/3qn3/p2Np1p1/2R1Pp2/p4P1p/3Q3P/6PK/8 w - - 0 1"]
+[SetUp "1"]
+
+1. Qxa6+ Qa7 2. Ra5 $1 Rb7 ( 2... Qxa6 3. Rxa6# ) ( 2... Nc8 3. Qc6+ Rb7 4. Qxb7# ) 3. Qxb7# 1-0
+
+[Event "Chapter 6 - Puzzle 351"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "1-0"]
+[FEN "r2qrnk1/pp4p1/2p1pbN1/2Pp4/3P2P1/3BPR2/PP5Q/R5K1 w - - 0 1"]
+[SetUp "1"]
+
+1. Qh8+ Kf7 2. Ne5+ Ke7 3. Qxg7+ $1 Bxg7 4. Rf7# 1-0
+
+[Event "Chapter 6 - Puzzle 352"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "4r1k1/pp3p2/2p4p/3p2p1/3PN2n/2P2Pq1/PPQ1rRB1/R5K1 b - - 0 1"]
+[SetUp "1"]
+
+1... Nxf3+ 2. Kf1 ( 2. Rxf3 Qxg2# ) ( 2. Kh1 Qh2# ) 2... Qxf2+ $1 3. Nxf2 Re1+ 4. Rxe1 Rxe1# 0-1
+
+[Event "Chapter 6 - Puzzle 353"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "r1b2rk1/1p5p/3p4/pP1Pp1p1/N3Pp1q/P4Pn1/5RPP/R2QN1K1 b - - 0 1"]
+[SetUp "1"]
+
+1... Qxh2+ $3 2. Kxh2 Rf6 3. Kg1 Rh6 4. Rc2 Rh1+ 5. Kf2 Rf1# 0-1
+
+[Event "Chapter 6 - Puzzle 354"]
+[Site "?"]
+[Date "????.??.??"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "0-1"]
+[FEN "r5k1/2p2pp1/2P5/7p/1P4n1/1N2PpP1/r2R1q1P/2QR3K b - - 0 1"]
+[SetUp "1"]
+
+1... Qxh2+ $1 2. Rxh2 Rxh2+ 3. Kg1 Rg2+ 4. Kf1 ( 4. Kh1 Nf2# ) 4... Nh2+ 5. Ke1 Re2# 0-1

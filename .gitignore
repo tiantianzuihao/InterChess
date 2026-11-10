@@ -9,3 +9,5 @@ engines/
 /*.zip
 /data/**/viewer-check.js
 /data/**/check*.png
+
+/data/**/review/

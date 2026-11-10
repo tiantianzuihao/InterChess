@@ -1,0 +1,54 @@
+301 Qf8+! Rxf8 Rxf8#
+302 Rb8+ Ka7 Nb5#
+303 Rg1!
+304 Qh2+! Kxh2 Rh6+ Qh4 Rxh4#
+305 Qh7+! Kxh7 Rh4#
+306 Rc8+ Kb7 Nc5#
+307 Rh8+ Kd7 Rd6#
+308 Qf2+! Rxf2 Rxf2#
+309 Rf7+ Kg8 Nh6+ Kh8 Rh7# | Rf7+ Kg8 Nh6+ Kh8 Rf8# | Rf7+ Ke8 Nd6+ Kd8 Rd7#
+310 Qh7+! Kxh7 Rh3+ Kg8 Rh8#
+311 f5+ gxf5 exf5+ Kd6 Rd7#
+312 Nh7+ Ke8 Nf6+ Kf8 Rf7# | Nh7+ Kg8 Nf6+ Kh8 Rh7# | Nh7+ Kg8 Nf6+ Kf8 Rf7#
+313 Qh1+! Bxh1 Rxh1+ Kg2 Bf3#
+314 Qh6+! Bxh6 Rg8+ Qxg8 Rxg8#
+315 Rh7+! Kxh7 Nf6+ Kh8 Rg8#
+316 Qg7+! Kxg7 Rg4+ Kf8 Rg8# | Qg7+! Kxg7 Rg4+ Kh8 Rg8#
+317 Qg8+! Kxg8 Rd8+ Kf7 Rf8#
+318 Rf8+!! Rxf8 Ne7# | Rf8+!! Kxf8 Rh8#
+319 Rh7+ Kf8 Rh8+ Kg7 Rg8# | Rh7+ Kf8 Rh8+ Ke7 Re8#
+320 Qh6! gxh6 Rg8# | Qh6! gxf6 Qf8# | Qh6! g6 Qf8#
+321 Qxf7+! Rxf7 Re8+ Rf8 Rxf8#
+322 Qh5+! Qxh5 Nf6+ Kh8 Rg8#
+323 Qxd1+! Bxd1 Rxd1+ Nxd1 Rf1# | Qxd1+! Nxd1 Rf1#
+324 Qh7+ Kxh7 Rh4+ Kg8 Rh8#
+325 Qc6+! Rxc6 Rd8# | Qc6+! Kf8 Qxc8+ Kg7 Bf6+
+326 Qf8+! Bxf8 Rxf8+ Kg7 Rg8#
+327 Rc8+ Kh7 Ng5+ Kh6 Nxf7+ Kh7 Rh8#
+328 Qg8+! Rxg8 Bg6+ Kf8 Re8#
+329 Rc8+ Kh7 Nf8+ Kg8 Ng6+ Kf7 Rf8# | Rc8+ Kh7 Nf8+ Kg8 Ng6+ Kh7 Rh8#
+330 Nf6+ Kg3 Nh5+ Kg4 Rg2+ Rg3 Rxg3# | Nf6+ Kg3 Ne4+
+331 Qg6+! Rxg6 hxg6+ Kg8 Rh8#
+332 Qg7+! Rxg7 Nf6+ Kh8 Rd8+ Rg8 Rxg8#
+333 Nf6+ Kh8 Qh6+! gxh6 Rg8#
+334 Qf6+ Kf8 Qxf7+! Nxf7 Rxf7+ Rxf7 Rxf7#
+335 Rg7+ Kh8 Rf7! h5 fxg6
+336 Rf7+ Kg8 Ne7+ Kh8 Ng6+ Kg8 Rg7# | Rf7+ Ke8 Ng7#
+337 Rd8+ Kf7 Nd6+ Ke7 Nc6#
+338 f4! Nd4 Rf7# | f4! Kf5 Rf7+ Kg4 h3# | f4! Rxf4 gxf4 Kf5 Rf7+ Kg4 h3+ Kh4 Nf3# | f4! Ra2+ Kh3 Rh2+ Kxh2 Kf5 Kh3
+339 Qxg6+! Rxg6 Rxg6+ Kf8 Rg8# | Qxg6+! Rxg6 Rxg6+ Kh8 Rg8#
+340 Qf7+ Kh8 Qxf8+! Bxf8 Rxf8+ Kg7 Nxe6#
+341 Qxc2+! Bxc2 Rxc2+ Kb1 Bxa2+ Ka1 Nb3#
+342 Re8+ Bxe8 Qxg7+ Kxg7 Ne6+ Kg8 Rf8# | Re8+ Bxe8 Qxg7+ Kxg7 Ne6+ Kh6 Rh4#
+343 Qxg7+! Rxg7 Nh6+ Kh8 Rxf8+ Rg8 Rxg8#
+344 Nf8+ Kh8 Ng6++ Kh7 Rh8+ Kxg6 Ne7#
+345 Rxe6+! Qxe6 Qxe6+ dxe6 Rd8# | Rxe6+! dxe6 Rd8# | Rxe6+! Kf8 Bh6+ Rg7 Qxg7# | Rxe6+! Kf8 Bh6+ Rg7 Qe8# | Rxe6+! Qxe6 Qxe6+ Kf8 Bh6+
+346 Ng4+ Kh1 Nf2+ Kh2 f3 Rg1 Rh3#
+347 Nf6+ Kg7 Qxh6+! Kxh6 Rh5+ Kg7 Rh7# | Nf6+ Kh8 Qh6#
+348 Re8+ Rf8 h6! Rxe8 Rg7+ Kf8 Nh7# | Re8+ Rf8 h6! Rxe8 Rg7+ Kh8 Nf7#
+349 Qg5! hxg5 Bf6 | Qg5! Qc7 Bf6 Kf8 Qh6+ Ke8 Qf8+!
+350 Qa6+ Qa7 Ra5! Rb7 Qxb7# | Qa6+ Qa7 Ra5! Qxa6 Rxa6# | Qa6+ Qa7 Ra5! Nc8 Qc6+ Rb7 Qxb7#
+351 Qh8+ Kf7 Ne5+ Ke7 Qxg7+! Bxg7 Rf7#
+352 Nxf3+ Kf1 Qxf2+! Nxf2 Re1+ Rxe1 Rxe1# | Nxf3+ Rxf3 Qxg2# | Nxf3+ Kh1 Qh2#
+353 Qh2+!! Kxh2 Rf6 Kg1 Rh6 Rc2 Rh1+ Kf2 Rf1#
+354 Qxh2+! Rxh2 Rxh2+ Kg1 Rg2+ Kf1 Nh2+ Ke1 Re2# | Qxh2+! Rxh2 Rxh2+ Kg1 Rg2+ Kh1 Nf2#

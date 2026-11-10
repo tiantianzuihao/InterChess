@@ -53,3 +53,5 @@ API 参考：https://developers.openai.com/api/docs/guides/images-vision
 - `/practice.html`：棋书残局练习。
 - `/duel.html`：本地 Stockfish，8 档难度、白/黑/随机、无限时或分钟＋加秒。详见 ENGINES.md。
 - 原棋书扫描工作台移到 `/scanner.html`。
+
+第六章「车和轻子配合的将杀」包含 301～354 题（54 题），含 85 条书中变化，已逐格核对照片并验证 437 个半回合。303、325、330、335、338、345、349 的部分原书变化未写到将死，保留原书省略并注明，不补造应手。家长可打开 `/review-chapter06/` 对照原图与已导入棋盘。`build_chapter06.py` 可重建 JSON、PGN、离线浏览页和 ZIP 数据包。第七至九章仍是未核对草稿，尚未加入练习。

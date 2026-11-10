@@ -1,0 +1,49 @@
+{
+  "chapters": [
+    {
+      "chapter": 6,
+      "first": 301,
+      "last": 354,
+      "count": 54,
+      "status": "photo_reviewed_rules_validated_imported",
+      "photos": 19
+    },
+    {
+      "chapter": 7,
+      "first": 355,
+      "last": 384,
+      "count": 30,
+      "status": "recognition_draft_requires_manual_review",
+      "photos": 8
+    },
+    {
+      "chapter": 8,
+      "first": 385,
+      "last": 432,
+      "count": 48,
+      "status": "recognition_draft_requires_manual_review",
+      "photos": 14
+    },
+    {
+      "chapter": 9,
+      "first": 433,
+      "last": 480,
+      "count": 48,
+      "status": "recognition_draft_requires_manual_review",
+      "photos": 13
+    }
+  ],
+  "duplicate_photos": {
+    "chapter06": [
+      "2.jpg",
+      "3.jpg",
+      "4.jpg",
+      "5.jpg",
+      "6.jpg"
+    ],
+    "chapter08": [
+      "5.jpg"
+    ]
+  },
+  "next_step": "Chapter 6 imported. Chapters 7-9 remain unverified drafts; review one chapter at a time."
+}
