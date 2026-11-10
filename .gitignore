@@ -11,3 +11,10 @@ engines/
 /data/**/check*.png
 
 /data/**/review/
+
+.venv-macos/
+.venv-linux/
+.runtime/
+
+/data/recognition-training.npz
+/data/remaining-page-index.jpg

@@ -1,8 +1,20 @@
-$ErrorActionPreference = 'Stop'
-Set-Location $PSScriptRoot
-if (-not (Test-Path '.venv\Scripts\python.exe')) {
-    python -m venv .venv
-    & .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+﻿$ErrorActionPreference = 'Stop'
+Set-Location -LiteralPath $PSScriptRoot
+$env:PYTHONUTF8 = '1'
+$choices = @(
+    @{Exe=(Join-Path $PSScriptRoot '.venv\Scripts\python.exe'); Prefix=@()},
+    @{Exe='py'; Prefix=@('-3')},
+    @{Exe='python'; Prefix=@()},
+    @{Exe='python3'; Prefix=@()}
+)
+foreach ($choice in $choices) {
+    if (-not (Get-Command $choice.Exe -ErrorAction SilentlyContinue)) { continue }
+    $exe = $choice.Exe
+    $prefix = $choice.Prefix
+    & $exe @prefix -c "import sys; sys.exit(0 if sys.version_info >= (3,10) else 1)" 2>$null
+    if ($LASTEXITCODE -ne 0) { continue }
+    & $exe @prefix (Join-Path $PSScriptRoot 'launcher.py')
+    exit $LASTEXITCODE
 }
-Write-Host 'Open http://127.0.0.1:18765 in your browser. Ctrl+C to stop.'
-& .\.venv\Scripts\python.exe server.py
+Write-Host 'Python 3.10+ was not found. Install Python from https://www.python.org/downloads/ and try again.' -ForegroundColor Yellow
+exit 1

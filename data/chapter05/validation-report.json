@@ -1,0 +1,19 @@
+{
+  "puzzles": 30,
+  "book_lines": 60,
+  "symbol_checks": {
+    "moves": 404,
+    "check": 176,
+    "mate": 48,
+    "double_check": 5,
+    "annotations": 68
+  },
+  "engine_mate_found": 30,
+  "errors": [],
+  "limitations": [
+    "引擎搜索是辅助验证，不是逐格识别正确性的证明。",
+    "!/? 为原书评价，保留但不作为规则正确性判据。",
+    "未标 +/# 的走法在 SAN 中自动补全；原始转录保留在 transcribed_notation。",
+    "书中结果表示胜负，并不表示当前局面已将死。"
+  ]
+}

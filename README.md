@@ -4,20 +4,16 @@
 
 ## 启动
 
-Windows PowerShell：
-
-```powershell
-cd D:\InterChess
-powershell -ExecutionPolicy Bypass -File .\start.ps1
-```
-
-打开 http://127.0.0.1:18765 。服务仅监听本机。首次启动需要 Python 3.10+，并联网安装 requirements.txt。
+Windows：双击 `Start-InterChess-Windows.bat`。Mac：双击 `Start-InterChess-Mac.command`。
+自动准备本地环境并打开首页，重复启动不会创建第二个服务。需要 Python 3.10+，首次安装依赖需要联网。
+Mac 上复制文件后若没有执行权限，请参考 [启动器使用说明](启动器使用说明.md)。引擎目录需单独携带。
+也可继续用 PowerShell 执行 `powershell -ExecutionPolicy Bypass -File ./start.ps1`。
 
 ## 残局答题
 
-启动后打开 http://127.0.0.1:18765/practice.html ，选择章节和题号，点击自己的棋子，再点击目标格。题库按章节保存在 `data/chapterXX`，无需配置 API 或安装引擎即可练习。
+启动后打开 http://127.0.0.1:18765/practice.html ，选择章节和题号，点击自己的棋子，再点击目标格。九章共 480 题保存在 `data/chapter01` 至 `data/chapter09`，无需配置 API 或安装引擎即可练习。
 
-练习按书中答案核对，电脑自动走已收录的应手。未收录的合法走法提示需要进一步分析，不直接判错；走完书中变化不一定已经将死。第 231 题题面已核对，答案待复核，暂不判题。当前练习进度不持久保存。
+练习按书中答案核对，电脑自动走已收录的应手。未收录的合法走法提示需要进一步分析，不直接判错；走完书中变化不一定已经将死。第 231 题题面已核对，答案待复核，暂不判题。当前章节和题号保存在浏览器本地；完成后下次进入下一题或下一章。
 
 每章同时包含 JSON、PGN、题目和答案原图，以及可直接打开的离线演示 HTML。离线 HTML 用于浏览和逐步演示，走棋答题需运行上述本地服务。根目录 ZIP 为生成文件，不纳入 Git。
 
@@ -53,6 +49,8 @@ API 参考：https://developers.openai.com/api/docs/guides/images-vision
 - `/practice.html`：棋书残局练习。
 - `/duel.html`：本地 Stockfish，8 档难度、白/黑/随机、无限时或分钟＋加秒。详见 ENGINES.md。
 - 原棋书扫描工作台移到 `/scanner.html`。
+
+第五章「兵升变将杀」包含 271～300 题（30 题、93 分），含 60 条书中变化。章节目录自动发现 `data/chapterXX/chapter.json`；完成第四章后，本地进度可接续第五章。
 
 第六章「车和轻子配合的将杀」包含 301～354 题（54 题），含 85 条书中变化，已逐格核对照片并验证 437 个半回合。303、325、330、335、338、345、349 的部分原书变化未写到将死，保留原书省略并注明，不补造应手。家长可打开 `/review-chapter06/` 对照原图与已导入棋盘。`build_chapter06.py` 可重建 JSON、PGN、离线浏览页和 ZIP 数据包。第六至九章均已加入练习。
 

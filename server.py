@@ -163,6 +163,8 @@ class Handler(SimpleHTTPRequestHandler):
         self.wfile.write(raw)
 
     def do_GET(self):
+        if self.path == '/api/health':
+            return self.json_response({'app': 'InterChess', 'status': 'ready'})
         if self.path == '/api/practice/catalog':
             return self.json_response(practice.catalog())
         if self.path == '/api/status':

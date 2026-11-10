@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../web/practice.js'),'utf8');
+let stored=null,chapter=1;
+const context=vm.createContext({document:{getElementById:()=>({value:chapter})},localStorage:{getItem:()=>stored,setItem:(key,value)=>{stored=value;}}});
+vm.runInContext(source.slice(0,source.indexOf('function formatMove')),context);
+vm.runInContext('catalog=[{number:1,puzzles:[{number:1},{number:2}]},{number:2,puzzles:[{number:3},{number:4}]}];',context);
+function save(number,complete,pending=false){vm.runInContext(`state={number:${number},complete:${complete},pending:${pending}};saveProgress();`,context);return JSON.parse(stored);}
+assert.deepEqual(save(1,false),{chapter:1,number:1});
+assert.deepEqual(save(1,true),{chapter:1,number:2});
+assert.deepEqual(save(2,true),{chapter:2,number:3});
+assert.equal(vm.runInContext('loadProgress().number',context),3);
+chapter=2;
+assert.deepEqual(save(4,true),{chapter:2,number:4});
+assert.deepEqual(save(3,true,true),{chapter:2,number:3});
+assert.deepEqual(save(3,false),{chapter:2,number:3});
+stored='invalid JSON';assert.equal(vm.runInContext('loadProgress()',context),null);
+stored=JSON.stringify({chapter:99,number:999});assert.equal(vm.runInContext('loadProgress()',context),null);
+context.localStorage.getItem=()=>{throw Error('blocked');};context.localStorage.setItem=()=>{throw Error('blocked');};
+assert.equal(vm.runInContext('loadProgress()',context),null);
+assert.doesNotThrow(()=>save(3,false));
+console.log('Practice progress: resume, advance, chapter boundary, last puzzle, pending, restart and storage fallback passed');

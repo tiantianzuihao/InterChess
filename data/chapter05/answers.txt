@@ -1,0 +1,30 @@
+271 Qg2+! Kxg2 f1=Q# | Qg2+! Ke2 f1=Q++ Ke3 Bc5#
+272 Qb1+! Nxb1 cxb1=Q#
+273 Qh2+! Kxh2 g1=Q#
+274 Qh8+! Kxh8 exf8=Q#
+275 e7! e1=Q f7+ Kh8 f8=Q#
+276 Qh2+! Qxh2 f2+ Rg2 f1=Q#
+277 Ra6+! bxa6 b7+ Ka7 b8=Q#
+278 Rh6+! gxh6 Qd4+ Bg7 f8=R# | Rh6+! gxh6 Qc3+
+279 Qd8+! Bxd8 e7+ Kh8 e8=Q# | Qd8+! Bxd8 e7+ Kh8 exd8=Q# | Qd8+! Bf8 e7+
+280 h1=Q+! Kxh1 Kf2 d8=Q g2+ Kh2 g1=Q+ Kh3 Qg3#
+281 Qh7+! Kxh7 g8=Q+! Qg8 Rh4# | Qh7+! Kxh7 g8=Q+! Kh6 Qg6#
+282 Re8+! Rxe8 Qg8+! Kxg8 dxe8=Q# | Re8+! Rxe8 Qg8+! Ke7 dxe8=Q+
+283 Qg8+! Kxg8 h7+ Kf8 h8=Q+ Ke7 Qd8+ Ke6 Qd6# | Qg8+! Kxg8 h7+ Kh8 Rd8+ Kg7 Rg8# | Qg8+! Kxg8 h7+ Kg7 h8=Q+ Kg6 Qh6#
+284 Qh7+! Kxh7 g8=Q+! Rxg8 Rh6#
+285 Qg2+! Rxg2 fxg2+ Kg1 Rf1+ Qxf1 gxf1=Q#
+286 Qa2+! Kxa2 Ra4+ Kb1 Ra1+ Nxa1 bxa1=Q#
+287 Qf7+! Rxf7 exf7+ Kf8 Re8# | Qf7+! Kh8 Qf8+ Qxf8 Rxf8# | Qf7+! Rxf7 exf7+ Kh8 Re8+ | Qf7+! Rxf7 exf7+ Kh8 f8=Q+
+288 e6! Qxf6 exd7++ Kd8 Re8+ Rxe8 dxe8=R# | e6! fxe6 Rxe6+ | e6! fxe6 Qxe6+
+289 Ng6+ Kh7 Nf8+ Kh8 Ng6+ Kh7 f8=N#
+290 Qh1+! Kxh1 d1=Q+ Kg2 Rd2+ Kh3 Qh1# | Qh1+! Kxh1 d1=Q+ Kg2 Rd2+ Kh3 Qf1# | Qh1+! Kxh1 d1=Q+ Kg2 Rd2+ Kh3 Qg4#
+291 Qg2+! Bxg2 f1=Q+ Bxf1 Rg1#
+292 Qg7+! Kxg7 h8=Q+ Kf7 Rh7+ Ke6 Qc8+ Kd6 Qd7# | Qg7+! Kxg7 h8=Q+ Kf7 Rh7+ Ke6 Qe8+ Kd6 Qd7# | Qg7+! Kxg7 h8=Q+ Kg6 Qh7#
+293 Qg2+! Rxg2 hxg2++ Kg1 Rh1+ Kf2 Rf1+ Kg3 g1=Q+ Kh3 Qg2# | Qg2+! Rxg2 hxg2++ Kg1 Rh1+ Kf2 g1=Q+ Kf3 Qf1+ Kg3 Rg1+ Kh2 Qg2#
+294 Rh8+! Kxh8 f8=Q+ Kh7 Qf7+ Kh8 Qf6+ Kh7 Qg6+ Kh8 Qh6+ Kg8 Be6# | Rh8+! Kxh8 f8=Q+ Kh7 Qf7+ Kh8 Qf6+ Kg8 Be6+ Kh7 Qg6+ Kh8 Qh6# | Rh8+! Kxh8 f8=Q+ Kh7 Qe7+
+295 Rh2+! Kxh2 Qxf2+ Kh1 g3 Nf3 g2+ Kh2 g1=Q++ Kh3 Qgg3#
+296 Qg7+! Kxg7 h8=Q+ Kf7 Rh7+ Ke6 Qg8+ Kf6 Qg7+ Ke6 Qf7#
+297 Qg2+! Kxg2 d1=Q+ Kg3 Qg1+ Kf3 Qg2+ Ke3 Qe2+ Kd4 Rd2+ Kc3 Qd3# | Qg2+! Rxg2 d1=Q+ Rg1 Qf3+ Rg2 Qg2# | Qg2+! Rxg2 d1=Q+ Rg1 Qd5+ Rg2 Qg2# | Qg2+! Kxg2 d1=Q+ Kh3 Qf3+ Rg3 Qh5# | Qg2+! Kxg2 d1=Q+ Kh3 Qf3+ Kh4 Rh2#
+298 Qg7+! Rxg7+ hxg7+ Kg8 Bxh7+! Kh7 Rh1+ Kg6 g8=Q+ | Qg7+! Rxg7+ hxg7+ Kg8 Bxh7+! Kh7 Rh1+ Kg8 Rh8#
+299 Qh3+! gxh3 g2+ Kg1 Bh2+! Kxh2 gxf1=Q+ Kg3 Rg2+ Kh4 Qf4# | Qh3+! gxh3 g2+ Kg1 Bh2+! Kxh2 gxf1=Q+ Kg3 Rg2+ Kh4 Qf6# | Qh3+! gxh3 g2+ Kg1 Bh2+! Kxh2 gxf1=Q+ Kg3 Qg2+ Kh4 Qe4+
+300 Be6+ Ke7 dxc8=N+! Rxc8 Qd7+ | Be6+ Kf6 d8=Q+ Rxd8 Qxd8# | Be6+ Ke7 dxc8=N+! Ke8 Qd7+ | Be6+ Ke7 dxc8=N+! Kf6 Bd4+ Qxd4+ Qxd4#
