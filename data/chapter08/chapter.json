@@ -1,0 +1,4053 @@
+{
+  "format": "interchess-book",
+  "schema_version": 1,
+  "book_title": "少儿国际象棋·初级篇（1001个绝妙将杀）",
+  "chapter": {
+    "number": 8,
+    "title": "摧毁防守"
+  },
+  "assumptions": {
+    "castling": "none",
+    "en_passant": "none",
+    "halfmove_clock": 0,
+    "fullmove_number": 1
+  },
+  "import_status": {
+    "reviewed": [
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      393,
+      394,
+      395,
+      396,
+      397,
+      398,
+      399,
+      400,
+      401,
+      402,
+      403,
+      404,
+      405,
+      406,
+      407,
+      408,
+      409,
+      410,
+      411,
+      412,
+      413,
+      414,
+      415,
+      416,
+      417,
+      418,
+      419,
+      420,
+      421,
+      422,
+      423,
+      424,
+      425,
+      426,
+      427,
+      428,
+      429,
+      430,
+      431,
+      432
+    ],
+    "remaining": []
+  },
+  "puzzles": [
+    {
+      "id": "ch08-385",
+      "number": 385,
+      "points": 1,
+      "fen": "r7/3q1p1k/4pBrp/p2b2p1/1p1P4/3Q3R/PP3PPP/2R3K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxh6+",
+            "Kg8",
+            "Rh8#"
+          ],
+          "uci": [
+            "h3h6",
+            "h7g8",
+            "h6h8"
+          ],
+          "transcribed_notation": "Rxh6+! Kg8 Rh8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxh6+",
+            "Kxh6",
+            "Qh3#"
+          ],
+          "uci": [
+            "h3h6",
+            "h7h6",
+            "d3h3"
+          ],
+          "transcribed_notation": "Rxh6+! Kxh6 Qh3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/1.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 0,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 2,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-386",
+      "number": 386,
+      "points": 1,
+      "fen": "8/p3r1k1/3R3p/6pQ/1P3p2/5N1P/P3r1PK/1q6 b - - 0 1",
+      "turn": "black",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg2+",
+            "Kxg2",
+            "Re2#"
+          ],
+          "uci": [
+            "e2g2",
+            "h2g2",
+            "e7e2"
+          ],
+          "transcribed_notation": "Rxg2+ Kxg2 Re2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/1.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 1,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 2,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-387",
+      "number": 387,
+      "points": 1,
+      "fen": "2br3k/6rp/1qnQ2p1/p4p2/2B1PP2/1PP1N3/7R/2K4R w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxh7+",
+            "Rxh7",
+            "Qf6#"
+          ],
+          "uci": [
+            "h2h7",
+            "g7h7",
+            "d6f6"
+          ],
+          "transcribed_notation": "Rxh7+ Rxh7 Qf6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/1.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 2,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 2,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-388",
+      "number": 388,
+      "points": 1,
+      "fen": "r2q1bk1/5n1p/2p3pP/p7/3Br3/1P3PQR/P5P1/2KR4 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Qxg6+",
+            "Bg7",
+            "Qxg7#"
+          ],
+          "uci": [
+            "g3g6",
+            "f8g7",
+            "g6g7"
+          ],
+          "transcribed_notation": "Qxg6+! Bg7 Qxg7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Qxg6+",
+            "hxg6",
+            "h7#"
+          ],
+          "uci": [
+            "g3g6",
+            "h7g6",
+            "h6h7"
+          ],
+          "transcribed_notation": "Qxg6+! hxg6 h7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/1.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 3,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 2,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-389",
+      "number": 389,
+      "points": 2,
+      "fen": "2r1q3/p2r2pk/5p1p/1p2nN1Q/4P3/2PP2R1/1P4PP/5RK1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Rxg7",
+            "Qxh6+",
+            "Kg8",
+            "Qxg7#"
+          ],
+          "uci": [
+            "g3g7",
+            "d7g7",
+            "h5h6",
+            "h7g8",
+            "h6g7"
+          ],
+          "transcribed_notation": "Rxg7+! Rxg7 Qxh6+ Kg8 Qxg7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg7+",
+            "Kh8",
+            "Qxh6#"
+          ],
+          "uci": [
+            "g3g7",
+            "h7h8",
+            "h5h6"
+          ],
+          "transcribed_notation": "Rxg7+! Kh8 Qxh6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/1.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 4,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-390",
+      "number": 390,
+      "points": 2,
+      "fen": "6Q1/pp2k3/2b1p3/2b3p1/5q2/8/PPP3PP/R6K b - - 0 1",
+      "turn": "black",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bxg2+",
+            "Kxg2",
+            "Qf2+",
+            "Kh1",
+            "Qf3#"
+          ],
+          "uci": [
+            "c6g2",
+            "h1g2",
+            "f4f2",
+            "g2h1",
+            "f2f3"
+          ],
+          "transcribed_notation": "Bxg2+! Kxg2 Qf2+ Kh1 Qf3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxg2+",
+            "Kxg2",
+            "Qf2+",
+            "Kh3",
+            "Qf3#"
+          ],
+          "uci": [
+            "c6g2",
+            "h1g2",
+            "f4f2",
+            "g2h3",
+            "f2f3"
+          ],
+          "transcribed_notation": "Bxg2+! Kxg2 Qf2+ Kh3 Qf3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/1.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 5,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-391",
+      "number": 391,
+      "points": 2,
+      "fen": "r1bq1r2/pp2nB1k/2np1Bp1/2p2pQp/4P3/3P1N2/PPP3PP/R4RK1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bxg6+",
+            "Nxg6",
+            "Qxh5+",
+            "Kg8",
+            "Qxg6#"
+          ],
+          "uci": [
+            "f7g6",
+            "e7g6",
+            "g5h5",
+            "h7g8",
+            "h5g6"
+          ],
+          "transcribed_notation": "Bxg6+ Nxg6 Qxh5+ Kg8 Qxg6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/2.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 0,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-392",
+      "number": 392,
+      "points": 2,
+      "fen": "1q3rk1/p3R1pp/8/5Q2/3r4/2n3P1/P4P1P/4R1K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Re7+",
+            "Kh8",
+            "Qxh7#"
+          ],
+          "uci": [
+            "e7g7",
+            "g8g7",
+            "e1e7",
+            "g7h8",
+            "f5h7"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Re7+ Kh8 Qxh7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Re7+",
+            "Rf7",
+            "Rxf7+"
+          ],
+          "uci": [
+            "e7g7",
+            "g8g7",
+            "e1e7",
+            "f8f7",
+            "e7f7"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Re7+ Rf7 Rxf7+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/2.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 1,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "Rf7 分支停在 Rxf7+，原书说明下一步将杀，未列后续应手。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-393",
+      "number": 393,
+      "points": 2,
+      "fen": "r1b2rk1/pppp1ppp/n7/q2N4/4BB2/5Q2/PPP3PP/R5KR w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Ne7#"
+          ],
+          "uci": [
+            "e4h7",
+            "g8h7",
+            "f3h5",
+            "h7g8",
+            "d5e7"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Ne7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kh8",
+            "Qh5"
+          ],
+          "uci": [
+            "e4h7",
+            "g8h8",
+            "f3h5"
+          ],
+          "transcribed_notation": "Bxh7+! Kh8 Qh5",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/2.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 2,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "Kh8 分支停在 Qh5，原书说明弃后只能拖延，未列后续。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 49,
+        "mate_in": 7,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-394",
+      "number": 394,
+      "points": 2,
+      "fen": "4k3/5p2/4pP2/1p2R2P/1q6/pr6/8/KQ1R4 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxe6+",
+            "Kf8",
+            "Rd8#"
+          ],
+          "uci": [
+            "e5e6",
+            "e8f8",
+            "d1d8"
+          ],
+          "transcribed_notation": "Rxe6+! Kf8 Rd8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxe6+",
+            "fxe6",
+            "Qg6+",
+            "Kf8",
+            "Rd8#"
+          ],
+          "uci": [
+            "e5e6",
+            "f7e6",
+            "b1g6",
+            "e8f8",
+            "d1d8"
+          ],
+          "transcribed_notation": "Rxe6+! fxe6 Qg6+ Kf8 Rd8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/2.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 3,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-395",
+      "number": 395,
+      "points": 2,
+      "fen": "1r5r/kpp2q2/p1p2p1n/N1P1b1pp/2Q1P3/R3B2P/PP3PP1/5RK1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Nxc6+",
+            "bxc6",
+            "Qxa6#"
+          ],
+          "uci": [
+            "a5c6",
+            "b7c6",
+            "c4a6"
+          ],
+          "transcribed_notation": "Nxc6+! bxc6 Qxa6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Nxc6+",
+            "Ka8",
+            "Rxa6+",
+            "bxa6",
+            "Qxa6#"
+          ],
+          "uci": [
+            "a5c6",
+            "a7a8",
+            "a3a6",
+            "b7a6",
+            "c4a6"
+          ],
+          "transcribed_notation": "Nxc6+! Ka8 Rxa6+! bxa6 Qxa6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/2.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 4,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-396",
+      "number": 396,
+      "points": 2,
+      "fen": "2r2k2/5qbQ/3N4/4Pp2/Pp3P2/4n3/PPr5/1K4RR b - - 0 1",
+      "turn": "black",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxb2+",
+            "Kxb2",
+            "Rc2+"
+          ],
+          "uci": [
+            "c2b2",
+            "b1b2",
+            "c8c2"
+          ],
+          "transcribed_notation": "Rxb2+! Kxb2 Rc2+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxb2+",
+            "Ka1",
+            "Qxa2#"
+          ],
+          "uci": [
+            "c2b2",
+            "b1a1",
+            "f7a2"
+          ],
+          "transcribed_notation": "Rxb2+! Ka1 Qa2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/2.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 5,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "主线停在 Rc2+，原书说明下一步 Qa2#，未列白方应手。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-397",
+      "number": 397,
+      "points": 2,
+      "fen": "4r2r/p4ppk/1pnB3p/3NP3/8/5P1b/2P2P1P/R5RK w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Rg1+",
+            "Kh7",
+            "Nf6#"
+          ],
+          "uci": [
+            "g1g7",
+            "h7g7",
+            "a1g1",
+            "g7h7",
+            "d5f6"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Rg1+ Kh7 Nf6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/3.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 0,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-398",
+      "number": 398,
+      "points": 2,
+      "fen": "2r2rk1/1bq2pp1/p1nbp2p/1p4NQ/1P2B2P/P3P3/1B3PP1/2R1K2R w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Qxh6",
+            "gxh6",
+            "Bh7#"
+          ],
+          "uci": [
+            "h5h6",
+            "g7h6",
+            "e4h7"
+          ],
+          "transcribed_notation": "Qxh6! gxh6 Bh7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/3.jpg",
+      "answer_image": "images/答案1.jpg",
+      "answer_images": [
+        "images/答案1.jpg"
+      ],
+      "diagram_index": 1,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-399",
+      "number": 399,
+      "points": 2,
+      "fen": "4brk1/4qp1p/3p1Rp1/pp5r/3QP3/PBPP2R1/6P1/6K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rfxg6+",
+            "hxg6",
+            "Rxg6+",
+            "Kh7",
+            "Qg7#"
+          ],
+          "uci": [
+            "f6g6",
+            "h7g6",
+            "g3g6",
+            "g8h7",
+            "d4g7"
+          ],
+          "transcribed_notation": "Rfxg6+! hxg6 Rxg6+ Kh7 Qg7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/3.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案1.jpg",
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 2,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "原书说明 Rfxg6+ 优于 Rgxg6+；后者未作为本题正确答案收录。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-400",
+      "number": 400,
+      "points": 2,
+      "fen": "6rk/5p1p/p7/1pbP1P2/3pQ2P/6Pq/P1B2P2/R5K1 b - - 0 1",
+      "turn": "black",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg3+",
+            "fxg3",
+            "d3+"
+          ],
+          "uci": [
+            "g8g3",
+            "f2g3",
+            "d4d3"
+          ],
+          "transcribed_notation": "Rxg3+! fxg3 d3+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/3.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 3,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "主线停在 d3+，原书说明下一步将杀，未列白方应手。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-401",
+      "number": 401,
+      "points": 2,
+      "fen": "8/4Qpk1/4p1p1/p3b3/P1rqN3/Kp1p1P2/6R1/3R4 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg6+",
+            "Kxg6",
+            "Qg5+",
+            "Kh7",
+            "Rh1+",
+            "Bh2",
+            "Rxh2#"
+          ],
+          "uci": [
+            "g2g6",
+            "g7g6",
+            "e7g5",
+            "g6h7",
+            "d1h1",
+            "e5h2",
+            "h1h2"
+          ],
+          "transcribed_notation": "Rxg6+! Kxg6 Qg5+ Kh7 Rh1+ Bh2 Rxh2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg6+",
+            "Kh7",
+            "Qxf7+",
+            "Bg7",
+            "Rh1#"
+          ],
+          "uci": [
+            "g2g6",
+            "g7h7",
+            "e7f7",
+            "e5g7",
+            "d1h1"
+          ],
+          "transcribed_notation": "Rxg6+! Kh7 Qxf7+ Bg7 Rh1#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/3.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 4,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-402",
+      "number": 402,
+      "points": 2,
+      "fen": "2rr1b2/p5pk/1qp1Q2n/4B3/3P4/7R/PP3PPP/6K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxh6+",
+            "gxh6",
+            "Qf7+",
+            "Bg7",
+            "Qxg7#"
+          ],
+          "uci": [
+            "h3h6",
+            "g7h6",
+            "e6f7",
+            "f8g7",
+            "f7g7"
+          ],
+          "transcribed_notation": "Rxh6+! gxh6 Qf7+ Bg7 Qxg7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/3.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 5,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-403",
+      "number": 403,
+      "points": 2,
+      "fen": "3rr3/1p2pk1p/p2p2p1/P1qN1b2/2P2P2/1PQ5/5RPP/4R1K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxe7+",
+            "Rxe7",
+            "Qf6+",
+            "Kg8",
+            "Nxe7#"
+          ],
+          "uci": [
+            "e1e7",
+            "e8e7",
+            "c3f6",
+            "f7g8",
+            "d5e7"
+          ],
+          "transcribed_notation": "Rxe7+! Rxe7 Qf6+ Kg8 Nxe7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxe7+",
+            "Rxe7",
+            "Qf6+",
+            "Ke8",
+            "Qxe7#"
+          ],
+          "uci": [
+            "e1e7",
+            "e8e7",
+            "c3f6",
+            "f7e8",
+            "f6e7"
+          ],
+          "transcribed_notation": "Rxe7+! Rxe7 Qf6+ Ke8 Qxe7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/4.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 0,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-404",
+      "number": 404,
+      "points": 3,
+      "fen": "2n2r1k/pp3pp1/2p2R1p/4q3/7R/1BP4Q/P6P/6K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rhxh6+",
+            "gxh6",
+            "Qxh6+",
+            "Kg8",
+            "Rg6+"
+          ],
+          "uci": [
+            "h4h6",
+            "g7h6",
+            "h3h6",
+            "h8g8",
+            "f6g6"
+          ],
+          "transcribed_notation": "Rhxh6+! gxh6 Qxh6+ Kg8 Rg6+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rhxh6+",
+            "Kg8",
+            "Rh8#"
+          ],
+          "uci": [
+            "h4h6",
+            "h8g8",
+            "h6h8"
+          ],
+          "transcribed_notation": "Rhxh6+! Kg8 Rh8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/4.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 1,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "主线停在 Rg6+，原书说明下一步将杀；Rfxh6+? 是原书反例，不作为答案。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-405",
+      "number": 405,
+      "points": 3,
+      "fen": "7r/4Q1R1/6pk/pp1q3r/8/2P5/1P4PP/5R1K w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg6+",
+            "Kxg6",
+            "Rf6+",
+            "Kg5",
+            "Qg7+",
+            "Kh4",
+            "Qg3#"
+          ],
+          "uci": [
+            "g7g6",
+            "h6g6",
+            "f1f6",
+            "g6g5",
+            "e7g7",
+            "g5h4",
+            "g7g3"
+          ],
+          "transcribed_notation": "Rxg6+! Kxg6 Rf6+ Kg5 Qg7+ Kh4 Qg3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg6+",
+            "Kxg6",
+            "Rf6+",
+            "Kg5",
+            "Qg7+",
+            "Kh4",
+            "Rf4#"
+          ],
+          "uci": [
+            "g7g6",
+            "h6g6",
+            "f1f6",
+            "g6g5",
+            "e7g7",
+            "g5h4",
+            "f6f4"
+          ],
+          "transcribed_notation": "Rxg6+! Kxg6 Rf6+ Kg5 Qg7+ Kh4 Rf4#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/4.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 2,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-406",
+      "number": 406,
+      "points": 3,
+      "fen": "1r3rk1/5ppp/4p3/3p3Q/3P2R1/2p1R2P/1P1q1PP1/6K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qg5+",
+            "Kh8",
+            "Qf6+",
+            "Kg8",
+            "Rg3+"
+          ],
+          "uci": [
+            "g4g7",
+            "g8g7",
+            "h5g5",
+            "g7h8",
+            "g5f6",
+            "h8g8",
+            "e3g3"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qg5+ Kh8 Qf6+ Kg8 Rg3+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/4.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 3,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "主线停在 Rg3+，原书说明下一步将杀，未补造黑方应手。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 5,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-407",
+      "number": 407,
+      "points": 3,
+      "fen": "1r1r4/p5p1/3P1b1k/2n1pQ1p/1p4nP/8/PPP5/1K3RR1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg4",
+            "hxg4",
+            "h5"
+          ],
+          "uci": [
+            "g1g4",
+            "h5g4",
+            "h4h5"
+          ],
+          "transcribed_notation": "Rxg4! hxg4 h5",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg4",
+            "g5",
+            "Qxf6+"
+          ],
+          "uci": [
+            "g1g4",
+            "g7g5",
+            "f5f6"
+          ],
+          "transcribed_notation": "Rxg4! g5 Qxf6+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/4.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 4,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "主线停在 h5，威胁 Qg6#；g5 分支停在 Qxf6+，原书未列完整后续。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 200,
+        "mate_in": 5,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-408",
+      "number": 408,
+      "points": 3,
+      "fen": "2r4k/1p3rpp/p2p4/2qB2Q1/7R/8/2P3PP/7K w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Qxf7+",
+            "Kh7",
+            "Qh5#"
+          ],
+          "uci": [
+            "h4h7",
+            "h8h7",
+            "g5h5",
+            "h7g8",
+            "h5f7",
+            "g8h7",
+            "f7h5"
+          ],
+          "transcribed_notation": "Rxh7+! Kxh7 Qh5+ Kg8 Qxf7+ Kh7 Qh5#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/4.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 5,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-409",
+      "number": 409,
+      "points": 3,
+      "fen": "2q1r1k1/pp1R2pp/2p2p2/5Qb1/2P5/2B4P/PP3PP1/6K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qxg5+",
+            "Kf8",
+            "Qxf6+",
+            "Kg8",
+            "Qg7#"
+          ],
+          "uci": [
+            "d7g7",
+            "g8g7",
+            "f5g5",
+            "g7f8",
+            "g5f6",
+            "f8g8",
+            "f6g7"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qxg5+ Kf8 Qf6+ Kg8 Qg7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/6.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 0,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 215,
+        "mate_in": 5,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-410",
+      "number": 410,
+      "points": 3,
+      "fen": "r1bq1rk1/4nppp/1p2p3/3pN3/8/P1RB4/1P3PPP/3QK2R w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Rh3"
+          ],
+          "uci": [
+            "d3h7",
+            "g8h7",
+            "d1h5",
+            "h7g8",
+            "c3h3"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Rh3",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kh8",
+            "Qh5",
+            "g6",
+            "Bxg6+",
+            "Kg7",
+            "Qh7+",
+            "Kf6",
+            "Ng4+",
+            "Kg5",
+            "Qh5+",
+            "Kf4",
+            "Rf3#"
+          ],
+          "uci": [
+            "d3h7",
+            "g8h8",
+            "d1h5",
+            "g7g6",
+            "h7g6",
+            "h8g7",
+            "h5h7",
+            "g7f6",
+            "e5g4",
+            "f6g5",
+            "h7h5",
+            "g5f4",
+            "c3f3"
+          ],
+          "transcribed_notation": "Bxh7+! Kh8 Qh5 g6 Bxg6+ Kg7 Qh7+ Kf6 Ng4+ Kg5 Qh5+ Kf4 Rf3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/6.jpg",
+      "answer_image": "images/答案2.jpg",
+      "answer_images": [
+        "images/答案2.jpg"
+      ],
+      "diagram_index": 1,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "主线停在 Rh3，威胁 Rh7# 或 Rh8#，未列黑方应手。原书另建议先 Rh3+ 再 Qh5。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 54,
+        "mate_in": 7,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-411",
+      "number": 411,
+      "points": 3,
+      "fen": "3r1rk1/ppn1qpp1/4pR1p/4P3/3P2R1/1b2Q3/PP2N1PP/6K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qxh6+",
+            "Kg8",
+            "Qg5+",
+            "Kh7",
+            "Rh6#"
+          ],
+          "uci": [
+            "g4g7",
+            "g8g7",
+            "e3h6",
+            "g7g8",
+            "h6g5",
+            "g8h7",
+            "f6h6"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qxh6+ Kg8 Qg5+ Kh7 Rh6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/6.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 2,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-412",
+      "number": 412,
+      "points": 3,
+      "fen": "3rr3/pb1q1kpp/1p2nn2/2p1QN1P/4p2N/1P2P3/P2PBP2/2R1K1R1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kf8",
+            "Qxf6+",
+            "Qf7",
+            "Qxf7#"
+          ],
+          "uci": [
+            "g1g7",
+            "f7f8",
+            "e5f6",
+            "d7f7",
+            "f6f7"
+          ],
+          "transcribed_notation": "Rxg7+! Kf8 Qxf6+ Qf7 Qxf7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg7+",
+            "Nxg7",
+            "Nh6+",
+            "Kf8",
+            "Qxf6+",
+            "Qf7",
+            "Qxf7#"
+          ],
+          "uci": [
+            "g1g7",
+            "e6g7",
+            "f5h6",
+            "f7f8",
+            "e5f6",
+            "d7f7",
+            "f6f7"
+          ],
+          "transcribed_notation": "Rxg7+! Nxg7 Nh6+ Kf8 Qxf6+ Qf7 Qxf7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/6.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 3,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-413",
+      "number": 413,
+      "points": 3,
+      "fen": "2r3k1/p3pp1p/q5PQ/3p4/P7/1r3P2/2P3P1/2KR3R b - - 0 1",
+      "turn": "black",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxc2+",
+            "Kxc2",
+            "Qc4+",
+            "Kd2",
+            "Rb2+",
+            "Ke1",
+            "Qe2#"
+          ],
+          "uci": [
+            "c8c2",
+            "c1c2",
+            "a6c4",
+            "c2d2",
+            "b3b2",
+            "d2e1",
+            "c4e2"
+          ],
+          "transcribed_notation": "Rxc2+! Kxc2 Qc4+ Kd2 Rb2+ Ke1 Qe2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxc2+",
+            "Kxc2",
+            "Qc4+",
+            "Kd2",
+            "Rb2+",
+            "Ke3",
+            "Re2#"
+          ],
+          "uci": [
+            "c8c2",
+            "c1c2",
+            "a6c4",
+            "c2d2",
+            "b3b2",
+            "d2e3",
+            "b2e2"
+          ],
+          "transcribed_notation": "Rxc2+! Kxc2 Qc4+ Kd2 Rb2+ Ke3 Re2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/6.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 4,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-414",
+      "number": 414,
+      "points": 3,
+      "fen": "r4rk1/1pp3p1/p2pb3/6R1/4P1P1/2N1Qq2/PPP5/1K5R w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qg5+",
+            "Kf7",
+            "Rh7+",
+            "Ke8",
+            "Qe7#"
+          ],
+          "uci": [
+            "g5g7",
+            "g8g7",
+            "e3g5",
+            "g7f7",
+            "h1h7",
+            "f7e8",
+            "g5e7"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qg5+ Kf7 Rh7+ Ke8 Qe7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/6.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 5,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-415",
+      "number": 415,
+      "points": 3,
+      "fen": "r2q1r2/pp5p/2p2ppk/3p4/5PQ1/1Pn1PR2/P2P3P/4K1R1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rh3+",
+            "Kg7",
+            "Rxh7+",
+            "Kxh7",
+            "Qxg6+"
+          ],
+          "uci": [
+            "f3h3",
+            "h6g7",
+            "h3h7",
+            "g7h7",
+            "g4g6"
+          ],
+          "transcribed_notation": "Rh3+ Kg7 Rxh7+! Kxh7 Qxg6+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rh3+",
+            "Kg7",
+            "Rxh7+",
+            "Kg8",
+            "Qxg6#"
+          ],
+          "uci": [
+            "f3h3",
+            "h6g7",
+            "h3h7",
+            "g7g8",
+            "g4g6"
+          ],
+          "transcribed_notation": "Rh3+ Kg7 Rxh7+! Kg8 Qxg6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/7.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 0,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "Kxh7 分支停在 Qxg6+，原书说明下一步将杀，未列黑方应手。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-416",
+      "number": 416,
+      "points": 3,
+      "fen": "r4rq1/pp1b1k2/4pBpR/2p1PpQ1/8/2P5/PP2BPP1/2K5 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bh5",
+            "gxh5",
+            "Qxh5+",
+            "Qg6",
+            "Qxg6#"
+          ],
+          "uci": [
+            "e2h5",
+            "g6h5",
+            "g5h5",
+            "g8g6",
+            "h5g6"
+          ],
+          "transcribed_notation": "Bh5! gxh5 Qxh5+ Qg6 Qxg6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bh5",
+            "Ke8",
+            "Qxg6+",
+            "Qxg6",
+            "Bxg6+",
+            "Rf7",
+            "Rh8#"
+          ],
+          "uci": [
+            "e2h5",
+            "f7e8",
+            "g5g6",
+            "g8g6",
+            "h5g6",
+            "f8f7",
+            "h6h8"
+          ],
+          "transcribed_notation": "Bh5! Ke8 Qxg6+ Qxg6 Bxg6+ Rf7 Rh8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bh5",
+            "Ke8",
+            "Qxg6+",
+            "Qf7",
+            "Qxf7+",
+            "Rxf7",
+            "Rh8#"
+          ],
+          "uci": [
+            "e2h5",
+            "f7e8",
+            "g5g6",
+            "g8f7",
+            "g6f7",
+            "f8f7",
+            "h6h8"
+          ],
+          "transcribed_notation": "Bh5! Ke8 Qxg6+ Qf7 Qxf7+ Rxf7 Rh8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/7.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 1,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "原书另说明先 Rxg6 也能赢，但仅列片段，未作为完整变化录入。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-417",
+      "number": 417,
+      "points": 3,
+      "fen": "5r2/5pk1/p1bp1Rp1/4p1Q1/2PpP3/3P1R2/Prq4P/6NK w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg6+",
+            "fxg6",
+            "Qe7+",
+            "Rf7",
+            "Rxf7+",
+            "Kh6",
+            "Rh7#"
+          ],
+          "uci": [
+            "f6g6",
+            "f7g6",
+            "g5e7",
+            "f8f7",
+            "f3f7",
+            "g7h6",
+            "f7h7"
+          ],
+          "transcribed_notation": "Rxg6+! fxg6 Qe7+ Rf7 Rxf7+ Kh6 Rh7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg6+",
+            "fxg6",
+            "Qe7+",
+            "Rf7",
+            "Rxf7+",
+            "Kh6",
+            "Qh4#"
+          ],
+          "uci": [
+            "f6g6",
+            "f7g6",
+            "g5e7",
+            "f8f7",
+            "f3f7",
+            "g7h6",
+            "e7h4"
+          ],
+          "transcribed_notation": "Rxg6+! fxg6 Qe7+ Rf7 Rxf7+ Kh6 Qh4#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg6+",
+            "fxg6",
+            "Qe7+",
+            "Rf7",
+            "Rxf7+",
+            "Kg8",
+            "Rf8#"
+          ],
+          "uci": [
+            "f6g6",
+            "f7g6",
+            "g5e7",
+            "f8f7",
+            "f3f7",
+            "g7g8",
+            "f7f8"
+          ],
+          "transcribed_notation": "Rxg6+! fxg6 Qe7+ Rf7 Rxf7+ Kg8 Rf8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg6+",
+            "fxg6",
+            "Qe7+",
+            "Kh6",
+            "Rh3#"
+          ],
+          "uci": [
+            "f6g6",
+            "f7g6",
+            "g5e7",
+            "g7h6",
+            "f3h3"
+          ],
+          "transcribed_notation": "Rxg6+! fxg6 Qe7+ Kh6 Rh3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg6+",
+            "fxg6",
+            "Qe7+",
+            "Kg8",
+            "Rxf8#"
+          ],
+          "uci": [
+            "f6g6",
+            "f7g6",
+            "g5e7",
+            "g7g8",
+            "f3f8"
+          ],
+          "transcribed_notation": "Rxg6+! fxg6 Qe7+ Kg8 Rxf8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg6+",
+            "Kh7",
+            "Rh6#"
+          ],
+          "uci": [
+            "f6g6",
+            "g7h7",
+            "g6h6"
+          ],
+          "transcribed_notation": "Rxg6+! Kh7 Rh6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/7.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 2,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-418",
+      "number": 418,
+      "points": 3,
+      "fen": "3rr3/QR2n2p/2pk1pp1/3p1q2/3P4/4PP1P/PP4P1/K1R5 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxc6+",
+            "Nxc6",
+            "Qc5+",
+            "Ke6",
+            "Qxc6+",
+            "Rd6",
+            "Qxe8#"
+          ],
+          "uci": [
+            "c1c6",
+            "e7c6",
+            "a7c5",
+            "d6e6",
+            "c5c6",
+            "d8d6",
+            "c6e8"
+          ],
+          "transcribed_notation": "Rxc6+! Nxc6 Qc5+ Ke6 Qxc6+ Rd6 Qxe8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxc6+",
+            "Kxc6",
+            "Rb6#"
+          ],
+          "uci": [
+            "c1c6",
+            "d6c6",
+            "b7b6"
+          ],
+          "transcribed_notation": "Rxc6+! Kxc6 Rb6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/7.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 3,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-419",
+      "number": 419,
+      "points": 3,
+      "fen": "r1N2k2/1p2Rp1p/n2p1np1/p1pP4/5q2/2P2P1B/PP2Q2P/1K6 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxf7+",
+            "Kxf7",
+            "Qe7+",
+            "Kg8",
+            "Be6+",
+            "Kh8",
+            "Qf8+",
+            "Ng8",
+            "Qxg8#"
+          ],
+          "uci": [
+            "e7f7",
+            "f8f7",
+            "e2e7",
+            "f7g8",
+            "h3e6",
+            "g8h8",
+            "e7f8",
+            "f6g8",
+            "f8g8"
+          ],
+          "transcribed_notation": "Rxf7+! Kxf7 Qe7+ Kg8 Be6+ Kh8 Qf8+ Ng8 Qxg8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxf7+",
+            "Kg8",
+            "Qe7",
+            "Rxc8",
+            "Rf8+",
+            "Rxf8",
+            "Be6+",
+            "Rf7",
+            "Qxf7+",
+            "Kh8",
+            "Qf8+",
+            "Ng8",
+            "Qxg8#"
+          ],
+          "uci": [
+            "e7f7",
+            "f8g8",
+            "e2e7",
+            "a8c8",
+            "f7f8",
+            "c8f8",
+            "h3e6",
+            "f8f7",
+            "e7f7",
+            "g8h8",
+            "f7f8",
+            "f6g8",
+            "f8g8"
+          ],
+          "transcribed_notation": "Rxf7+! Kg8 Qe7 Rc8 Rf8+ Rxf8 Be6+ Rf7 Qxf7+ Kh8 Qf8+ Ng8 Qxg8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/7.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 4,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 60,
+        "mate_in": 7,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-420",
+      "number": 420,
+      "points": 3,
+      "fen": "2bq1rk1/p3bpp1/1r3B1p/1p1pP2Q/2p5/P1P1PR2/1PBN2PP/6K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Qxh6",
+            "gxh6",
+            "Rg3+",
+            "Bg4",
+            "Rxg4#"
+          ],
+          "uci": [
+            "h5h6",
+            "g7h6",
+            "f3g3",
+            "c8g4",
+            "g3g4"
+          ],
+          "transcribed_notation": "Qxh6! gxh6 Rg3+ Bg4 Rxg4#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/7.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 5,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 3,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-421",
+      "number": 421,
+      "points": 3,
+      "fen": "1Q6/1p3bbk/p5p1/3q3p/1B1N2RP/1P6/P6r/K1R5 b - - 0 1",
+      "turn": "black",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bxd4+",
+            "Rxd4",
+            "Rxa2+",
+            "Kb1",
+            "Qxb3#"
+          ],
+          "uci": [
+            "g7d4",
+            "g4d4",
+            "h2a2",
+            "a1b1",
+            "d5b3"
+          ],
+          "transcribed_notation": "Bd4+ Rxd4 Ra2+! Kb1 Qxb3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxd4+",
+            "Rxd4",
+            "Rxa2+",
+            "Kxa2",
+            "Qxb3+",
+            "Ka1",
+            "Qa2#"
+          ],
+          "uci": [
+            "g7d4",
+            "g4d4",
+            "h2a2",
+            "a1a2",
+            "d5b3",
+            "a2a1",
+            "b3a2"
+          ],
+          "transcribed_notation": "Bd4+ Rxd4 Ra2+! Kxa2 Qxb3+ Ka1 Qa2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxd4+",
+            "Kb1",
+            "Qf5+"
+          ],
+          "uci": [
+            "g7d4",
+            "a1b1",
+            "d5f5"
+          ],
+          "transcribed_notation": "Bd4+ Kb1 Qf5+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/8.jpg",
+      "answer_image": "images/答案3.jpg",
+      "answer_images": [
+        "images/答案3.jpg"
+      ],
+      "diagram_index": 0,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "Kb1 分支原书停在 Qf5+，说明也可将杀，未列后续。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-422",
+      "number": 422,
+      "points": 4,
+      "fen": "2r5/1b5Q/pq1k1rp1/4p3/1p1pP3/4BP1B/PPP5/K2R4 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Qd7+",
+            "Kc5",
+            "Rxd4",
+            "exd4",
+            "Bxd4+",
+            "Kc4",
+            "b3#"
+          ],
+          "uci": [
+            "h7d7",
+            "d6c5",
+            "d1d4",
+            "e5d4",
+            "e3d4",
+            "c5c4",
+            "b2b3"
+          ],
+          "transcribed_notation": "Qd7+ Kc5 Rxd4! exd4 Bxd4+ Kc4 b3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Qd7+",
+            "Kc5",
+            "Rxd4",
+            "exd4",
+            "Bxd4+",
+            "Kc4",
+            "Bf1#"
+          ],
+          "uci": [
+            "h7d7",
+            "d6c5",
+            "d1d4",
+            "e5d4",
+            "e3d4",
+            "c5c4",
+            "h3f1"
+          ],
+          "transcribed_notation": "Qd7+ Kc5 Rxd4! exd4 Bxd4+ Kc4 Bf1#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Qd7+",
+            "Kc5",
+            "Rxd4",
+            "Rxf3",
+            "Rc4+",
+            "Kxc4",
+            "Qd3#"
+          ],
+          "uci": [
+            "h7d7",
+            "d6c5",
+            "d1d4",
+            "f6f3",
+            "d4c4",
+            "c5c4",
+            "d7d3"
+          ],
+          "transcribed_notation": "Qd7+ Kc5 Rxd4! Rxf3 Rc4+ Kxc4 Qd3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/8.jpg",
+      "answer_image": "images/答案4.jpg",
+      "answer_images": [
+        "images/答案4.jpg"
+      ],
+      "diagram_index": 1,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "原书说明 Rxd4 后威胁 Rd1+ Kc4 Qd3#，未列黑方等待着；不补造。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-423",
+      "number": 423,
+      "points": 4,
+      "fen": "r4rk1/1b3Npp/1p2q3/pP6/P2pp2Q/6R1/2P3PP/5RK1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qg5+",
+            "Qg6",
+            "Qe5+",
+            "Kg8",
+            "Qh8#"
+          ],
+          "uci": [
+            "g3g7",
+            "g8g7",
+            "h4g5",
+            "e6g6",
+            "g5e5",
+            "g7g8",
+            "e5h8"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qg5+ Qg6 Qe5+ Kg8 Qh8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qg3+"
+          ],
+          "uci": [
+            "g3g7",
+            "g8g7",
+            "h4g3"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qg3+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/8.jpg",
+      "answer_image": "images/答案4.jpg",
+      "answer_images": [
+        "images/答案4.jpg"
+      ],
+      "diagram_index": 2,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "Qg3+ 备选原书未列后续；实战 Rf6? 是反例，不作为正确答案。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 5,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-424",
+      "number": 424,
+      "points": 4,
+      "fen": "5rk1/1pR3p1/p1q1p3/2b1P1pQ/2P5/1P1R4/P5PP/7K w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qxg5+",
+            "Kf7",
+            "Qf6+",
+            "Ke8",
+            "Rd8#"
+          ],
+          "uci": [
+            "c7g7",
+            "g8g7",
+            "h5g5",
+            "g7f7",
+            "g5f6",
+            "f7e8",
+            "d3d8"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qxg5+ Kf7 Qf6+ Ke8 Rd8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qxg5+",
+            "Kh7",
+            "Rh3#"
+          ],
+          "uci": [
+            "c7g7",
+            "g8g7",
+            "h5g5",
+            "g7h7",
+            "d3h3"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qxg5+ Kh7 Rh3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qxg5+",
+            "Kf7",
+            "Qf6+",
+            "Kg8",
+            "Rg3+",
+            "Kh7",
+            "Qg7#"
+          ],
+          "uci": [
+            "c7g7",
+            "g8g7",
+            "h5g5",
+            "g7f7",
+            "g5f6",
+            "f7g8",
+            "d3g3",
+            "g8h7",
+            "f6g7"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qxg5+ Kf7 Qf6+ Kg8 Rg3+ Kh7 Qg7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qxg5+",
+            "Kf7",
+            "Qf6+",
+            "Kg8",
+            "Rg3+",
+            "Kh7",
+            "Qh4#"
+          ],
+          "uci": [
+            "c7g7",
+            "g8g7",
+            "h5g5",
+            "g7f7",
+            "g5f6",
+            "f7g8",
+            "d3g3",
+            "g8h7",
+            "f6h4"
+          ],
+          "transcribed_notation": "Rxg7+! Kxg7 Qxg5+ Kf7 Qf6+ Kg8 Rg3+ Kh7 Qh4#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/8.jpg",
+      "answer_image": "images/答案4.jpg",
+      "answer_images": [
+        "images/答案4.jpg"
+      ],
+      "diagram_index": 3,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 5,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-425",
+      "number": 425,
+      "points": 4,
+      "fen": "r3qrk1/1b3ppp/p2b1B2/8/2p1B3/8/3NQPPP/R4RK1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Qg5",
+            "g6",
+            "Qh6"
+          ],
+          "uci": [
+            "e4h7",
+            "g8h7",
+            "e2h5",
+            "h7g8",
+            "h5g5",
+            "g7g6",
+            "g5h6"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Qg5 g6 Qh6",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kh8",
+            "Qh5",
+            "Bf4",
+            "Bf5+",
+            "Bh6",
+            "Qxh6+",
+            "Kg8",
+            "Qxg7#"
+          ],
+          "uci": [
+            "e4h7",
+            "g8h8",
+            "e2h5",
+            "d6f4",
+            "h7f5",
+            "f4h6",
+            "h5h6",
+            "h8g8",
+            "h6g7"
+          ],
+          "transcribed_notation": "Bxh7+! Kh8 Qh5 Bf4 Bf5+ Bh6 Qxh6+ Kg8 Qxg7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Qg5",
+            "Bxh2+",
+            "Kxh2",
+            "Qe5+",
+            "Qxe5",
+            "gxf6",
+            "Qg3+",
+            "Kh7",
+            "Rh1"
+          ],
+          "uci": [
+            "e4h7",
+            "g8h7",
+            "e2h5",
+            "h7g8",
+            "h5g5",
+            "d6h2",
+            "g1h2",
+            "e8e5",
+            "g5e5",
+            "g7f6",
+            "e5g3",
+            "g8h7",
+            "f1h1"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Qg5 Bh2+ Kxh2 Qe5+ Qxe5 gxf6 Qg3+ Kh7 Rh1",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/8.jpg",
+      "answer_image": "images/答案4.jpg",
+      "answer_images": [
+        "images/答案4.jpg"
+      ],
+      "diagram_index": 4,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "原书 g6 分支停在 Qh6；Bh2+ 分支停在 Rh1，说明下一步 Rg1#，未列黑方应手。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 30,
+        "mate_in": 16,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-426",
+      "number": 426,
+      "points": 4,
+      "fen": "r3rbk1/p1qn1ppp/bp2p3/2ppP3/5BQP/2P1PN2/PPB2PP1/2KR3R w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Ng5+",
+            "Kg8",
+            "Qh5",
+            "Bd6",
+            "Qh7+",
+            "Kf8",
+            "exd6",
+            "Nf6",
+            "Qh8+",
+            "Ng8",
+            "Nh7#"
+          ],
+          "uci": [
+            "c2h7",
+            "g8h7",
+            "f3g5",
+            "h7g8",
+            "g4h5",
+            "f8d6",
+            "h5h7",
+            "g8f8",
+            "e5d6",
+            "d7f6",
+            "h7h8",
+            "f6g8",
+            "g5h7"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Ng5+ Kg8 Qh5 Bd6 Qh7+ Kf8 exd6 Nf6 Qh8+ Ng8 Nh7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kh8",
+            "Qh5"
+          ],
+          "uci": [
+            "c2h7",
+            "g8h8",
+            "g4h5"
+          ],
+          "transcribed_notation": "Bxh7+! Kh8 Qh5",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Ng5+",
+            "Kg6",
+            "h5+",
+            "Kh6",
+            "Nxf7+",
+            "Kh7",
+            "Qg6+",
+            "Kg8",
+            "h6",
+            "Nf6",
+            "hxg7",
+            "Bxg7",
+            "Rh8#"
+          ],
+          "uci": [
+            "c2h7",
+            "g8h7",
+            "f3g5",
+            "h7g6",
+            "h4h5",
+            "g6h6",
+            "g5f7",
+            "h6h7",
+            "g4g6",
+            "h7g8",
+            "h5h6",
+            "d7f6",
+            "h6g7",
+            "f8g7",
+            "h1h8"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Ng5+ Kg6 h5+ Kh6 Nxf7++ Kh7 Qg6+ Kg8 h6 Nf6 hxg7 Bg7 Rh8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Ng5+",
+            "Kh6",
+            "Ne4+",
+            "Kh7",
+            "Qh5+",
+            "Kg8",
+            "Ng5"
+          ],
+          "uci": [
+            "c2h7",
+            "g8h7",
+            "f3g5",
+            "h7h6",
+            "g5e4",
+            "h6h7",
+            "g4h5",
+            "h7g8",
+            "e4g5"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Ng5+ Kh6 Ne4+ Kh7 Qh5+ Kg8 Ng5",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+"
+          ],
+          "uci": [
+            "c2h7",
+            "g8h7",
+            "g4h5"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/8.jpg",
+      "answer_image": "images/答案4.jpg",
+      "answer_images": [
+        "images/答案4.jpg"
+      ],
+      "diagram_index": 5,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "Kh8 分支停在 Qh5。原书另列 Kh6 Ne4+ Kh7 Qh5+ Kg8 Ng5 的未完旁支；Ne4+ 为移开 g5 马后露出 f4 白象的闪将，符号已验证。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 33,
+        "mate_in": 9,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-427",
+      "number": 427,
+      "points": 5,
+      "fen": "8/kr5r/1p1Q3n/p1pPp1pP/2P1P3/2PKBqP1/1R6/R7 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxa5+",
+            "bxa5",
+            "Qxc5+",
+            "Kb8",
+            "Qa7+",
+            "Kc8",
+            "Qa8+",
+            "Kd7",
+            "Rxb7+",
+            "Kd6",
+            "c5#"
+          ],
+          "uci": [
+            "a1a5",
+            "b6a5",
+            "d6c5",
+            "a7b8",
+            "c5a7",
+            "b8c8",
+            "a7a8",
+            "c8d7",
+            "b2b7",
+            "d7d6",
+            "c4c5"
+          ],
+          "transcribed_notation": "Ra5+! bxa5 Qxc5+ Kb8 Qa7+! Kc8 Qa8+ Kd7 Rb7+ Kd6 c5#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxa5+",
+            "bxa5",
+            "Qxc5+",
+            "Kb8",
+            "Qa7+",
+            "Kc8",
+            "Qa8+",
+            "Rb8",
+            "Qxb8+",
+            "Kd7",
+            "Rb7#"
+          ],
+          "uci": [
+            "a1a5",
+            "b6a5",
+            "d6c5",
+            "a7b8",
+            "c5a7",
+            "b8c8",
+            "a7a8",
+            "b7b8",
+            "a8b8",
+            "c8d7",
+            "b2b7"
+          ],
+          "transcribed_notation": "Ra5+! bxa5 Qxc5+ Kb8 Qa7+! Kc8 Qa8+ Rb8 Qxb8+ Kd7 Rb7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxa5+",
+            "bxa5",
+            "Qxc5+",
+            "Ka6",
+            "Qc6+",
+            "Rb6",
+            "Qxb6#"
+          ],
+          "uci": [
+            "a1a5",
+            "b6a5",
+            "d6c5",
+            "a7a6",
+            "c5c6",
+            "b7b6",
+            "c6b6"
+          ],
+          "transcribed_notation": "Ra5+! bxa5 Qxc5+ Ka6 Qc6+ Rb6 Qxb6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxa5+",
+            "bxa5",
+            "Qxc5+",
+            "Ka8",
+            "Qc8+",
+            "Rb8",
+            "Qxb8#"
+          ],
+          "uci": [
+            "a1a5",
+            "b6a5",
+            "d6c5",
+            "a7a8",
+            "c5c8",
+            "b7b8",
+            "c8b8"
+          ],
+          "transcribed_notation": "Ra5+! bxa5 Qxc5+ Ka8 Qc8+ Rb8 Qxb8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxa5+",
+            "bxa5",
+            "Qxc5+",
+            "Kb8",
+            "Qa7+",
+            "Kc7",
+            "Rxb7+"
+          ],
+          "uci": [
+            "a1a5",
+            "b6a5",
+            "d6c5",
+            "a7b8",
+            "c5a7",
+            "b8c7",
+            "b2b7"
+          ],
+          "transcribed_notation": "Ra5+! bxa5 Qxc5+ Kb8 Qa7+! Kc7 Rb7+",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/9.jpg",
+      "answer_image": "images/答案4.jpg",
+      "answer_images": [
+        "images/答案4.jpg"
+      ],
+      "diagram_index": 0,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "Kc7 分支停在 Rb7+，原书说明下一步将杀，未列黑方应手。已放大核对右侧黑车在 h7、黑马在 h6。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 206,
+        "mate_in": 6,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-428",
+      "number": 428,
+      "points": 5,
+      "fen": "r4rk1/4R1p1/3pR2p/pppP4/7P/P4qP1/1PQ2P2/6K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qg6+",
+            "Kh8",
+            "Qxh6+",
+            "Kg8",
+            "Qg5+",
+            "Kf7",
+            "Qg6#"
+          ],
+          "uci": [
+            "e7g7",
+            "g8g7",
+            "c2g6",
+            "g7h8",
+            "g6h6",
+            "h8g8",
+            "h6g5",
+            "g8f7",
+            "g5g6"
+          ],
+          "transcribed_notation": "Rxg7+ Kxg7 Qg6+ Kh8 Qh6+ Kg8 Qg5+! Kf7 Qg6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg7+",
+            "Kxg7",
+            "Qg6+",
+            "Kh8",
+            "Qxh6+",
+            "Kg8",
+            "Qg5+",
+            "Kh7",
+            "Rh6#"
+          ],
+          "uci": [
+            "e7g7",
+            "g8g7",
+            "c2g6",
+            "g7h8",
+            "g6h6",
+            "h8g8",
+            "h6g5",
+            "g8h7",
+            "e6h6"
+          ],
+          "transcribed_notation": "Rxg7+ Kxg7 Qg6+ Kh8 Qh6+ Kg8 Qg5+! Kh7 Rh6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/9.jpg",
+      "answer_image": "images/答案4.jpg",
+      "answer_images": [
+        "images/答案4.jpg"
+      ],
+      "diagram_index": 1,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 5,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-429",
+      "number": 429,
+      "points": 5,
+      "fen": "4r1k1/1p1b1ppp/8/3P2r1/1PBQnq2/P7/5PPP/2R1R1K1 b - - 0 1",
+      "turn": "black",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Rxg2+",
+            "Kxg2",
+            "Bh3+",
+            "Kxh3",
+            "Qf3+",
+            "Kh4",
+            "g5#"
+          ],
+          "uci": [
+            "g5g2",
+            "g1g2",
+            "d7h3",
+            "g2h3",
+            "f4f3",
+            "h3h4",
+            "g7g5"
+          ],
+          "transcribed_notation": "Rxg2+! Kxg2 Bh3+! Kxh3 Qf3+ Kh4 g5#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg2+",
+            "Kxg2",
+            "Bh3+",
+            "Kg1",
+            "Qg4+",
+            "Kh1",
+            "Qg2#"
+          ],
+          "uci": [
+            "g5g2",
+            "g1g2",
+            "d7h3",
+            "g2g1",
+            "f4g4",
+            "g1h1",
+            "g4g2"
+          ],
+          "transcribed_notation": "Rxg2+! Kxg2 Bh3+! Kg1 Qg4+ Kh1 Qg2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg2+",
+            "Kxg2",
+            "Bh3+",
+            "Kg1",
+            "Qg5+",
+            "Kh1",
+            "Qg2#"
+          ],
+          "uci": [
+            "g5g2",
+            "g1g2",
+            "d7h3",
+            "g2g1",
+            "f4g5",
+            "g1h1",
+            "g5g2"
+          ],
+          "transcribed_notation": "Rxg2+! Kxg2 Bh3+! Kg1 Qg5+ Kh1 Qg2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Rxg2+",
+            "Kxg2",
+            "Bh3+",
+            "Kh1",
+            "Qf3+",
+            "Kg1",
+            "Qg2#"
+          ],
+          "uci": [
+            "g5g2",
+            "g1g2",
+            "d7h3",
+            "g2h1",
+            "f4f3",
+            "h1g1",
+            "f3g2"
+          ],
+          "transcribed_notation": "Rxg2+! Kxg2 Bh3+! Kh1 Qf3+ Kg1 Qg2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/9.jpg",
+      "answer_image": "images/答案5.jpg",
+      "answer_images": [
+        "images/答案4.jpg",
+        "images/答案5.jpg"
+      ],
+      "diagram_index": 2,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-430",
+      "number": 430,
+      "points": 5,
+      "fen": "r4rk1/3nbppp/1q2p3/3pB3/Pp1P4/3BR2P/1P2QPP1/R5K1 w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Bxg7",
+            "f5",
+            "Rg3",
+            "Bh4",
+            "Bf6+",
+            "Bxg3",
+            "Qg6#"
+          ],
+          "uci": [
+            "d3h7",
+            "g8h7",
+            "e2h5",
+            "h7g8",
+            "e5g7",
+            "f7f5",
+            "e3g3",
+            "e7h4",
+            "g7f6",
+            "h4g3",
+            "h5g6"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Bg7 f5 Rg3 Bh4 Bf6+ Bxg3 Qg6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kh8",
+            "Qh5",
+            "Nf6",
+            "Bxf6",
+            "Bxf6",
+            "Bg6+",
+            "Kg8",
+            "Qh7#"
+          ],
+          "uci": [
+            "d3h7",
+            "g8h8",
+            "e2h5",
+            "d7f6",
+            "e5f6",
+            "e7f6",
+            "h7g6",
+            "h8g8",
+            "h5h7"
+          ],
+          "transcribed_notation": "Bxh7+! Kh8 Qh5 Nf6 Bxf6 Bxf6 Bg6+ Kg8 Qh7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Bxg7",
+            "f6",
+            "Bh6",
+            "Rf7",
+            "Rg3+",
+            "Rg7",
+            "Rxg7+",
+            "Kh8",
+            "Qg6"
+          ],
+          "uci": [
+            "d3h7",
+            "g8h7",
+            "e2h5",
+            "h7g8",
+            "e5g7",
+            "f7f6",
+            "g7h6",
+            "f8f7",
+            "e3g3",
+            "f7g7",
+            "g3g7",
+            "g8h8",
+            "h5g6"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Bg7 f6 Bh6 Rf7 Rg3 Rg7 Rxg7+ Kh8 Qg6",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Bxg7",
+            "f6",
+            "Bh6",
+            "Rf7",
+            "Rg3+",
+            "Kh8",
+            "Bg7+",
+            "Kg8",
+            "Qh8#"
+          ],
+          "uci": [
+            "d3h7",
+            "g8h7",
+            "e2h5",
+            "h7g8",
+            "e5g7",
+            "f7f6",
+            "g7h6",
+            "f8f7",
+            "e3g3",
+            "g8h8",
+            "h6g7",
+            "h8g8",
+            "h5h8"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Bg7 f6 Bh6 Rf7 Rg3 Kh8 Bg7++ Kg8 Qh8#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Bxg7",
+            "Kxg7",
+            "Rg3+",
+            "Bg5",
+            "Qxg5+",
+            "Kh8",
+            "Qh6#"
+          ],
+          "uci": [
+            "d3h7",
+            "g8h7",
+            "e2h5",
+            "h7g8",
+            "e5g7",
+            "g8g7",
+            "e3g3",
+            "e7g5",
+            "h5g5",
+            "g7h8",
+            "g5h6"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Bg7 Kg7 Rg3+ Bg5 Qxg5+ Kh8 Qh6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Bxh7+",
+            "Kxh7",
+            "Qh5+",
+            "Kg8",
+            "Bxg7",
+            "f5",
+            "Rg3",
+            "Bg5",
+            "Rxg5"
+          ],
+          "uci": [
+            "d3h7",
+            "g8h7",
+            "e2h5",
+            "h7g8",
+            "e5g7",
+            "f7f5",
+            "e3g3",
+            "e7g5",
+            "g3g5"
+          ],
+          "transcribed_notation": "Bxh7+! Kxh7 Qh5+ Kg8 Bg7 f5 Rg3 Bg5 Rxg5",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/9.jpg",
+      "answer_image": "images/答案5.jpg",
+      "answer_images": [
+        "images/答案5.jpg"
+      ],
+      "diagram_index": 3,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "部分分支停在 Qg6 或 Rxg5，原书未列完整应手；主线收录到将死。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 55,
+        "mate_in": 8,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-431",
+      "number": 431,
+      "points": 5,
+      "fen": "r1b2r2/1p1n1pkB/1qn1p1p1/pNbpP1N1/P2p1PQ1/8/1PPB2PP/R3K2R w - - 0 1",
+      "turn": "white",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Nxe6+",
+            "fxe6",
+            "Qxg6+",
+            "Kh8",
+            "Bg8",
+            "Rxg8",
+            "Qh6#"
+          ],
+          "uci": [
+            "g5e6",
+            "f7e6",
+            "g4g6",
+            "g7h8",
+            "h7g8",
+            "f8g8",
+            "g6h6"
+          ],
+          "transcribed_notation": "Nxe6+! fxe6 Qxg6+ Kh8 Bg8! Rxg8 Qh6#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Nxe6+",
+            "fxe6",
+            "Qxg6+",
+            "Kh8",
+            "Bg8",
+            "Rf7",
+            "Bxf7"
+          ],
+          "uci": [
+            "g5e6",
+            "f7e6",
+            "g4g6",
+            "g7h8",
+            "h7g8",
+            "f8f7",
+            "g8f7"
+          ],
+          "transcribed_notation": "Nxe6+! fxe6 Qxg6+ Kh8 Bg8! Rf7 Bxf7",
+          "ends_in_checkmate": false,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Nxe6+",
+            "Kxh7",
+            "Qh4+",
+            "Kg8",
+            "Ng5",
+            "Re8",
+            "Qh7+",
+            "Kf8",
+            "Qxf7#"
+          ],
+          "uci": [
+            "g5e6",
+            "g7h7",
+            "g4h4",
+            "h7g8",
+            "e6g5",
+            "f8e8",
+            "h4h7",
+            "g8f8",
+            "h7f7"
+          ],
+          "transcribed_notation": "Nxe6+! Kxh7 Qh4+ Kg8 Ng5 Re8 Qh7+ Kf8 Qxf7#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Nxe6+",
+            "Kh8",
+            "Qh3"
+          ],
+          "uci": [
+            "g5e6",
+            "g7h8",
+            "g4h3"
+          ],
+          "transcribed_notation": "Nxe6+! Kh8 Qh3",
+          "ends_in_checkmate": false,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/9.jpg",
+      "answer_image": "images/答案5.jpg",
+      "answer_images": [
+        "images/答案5.jpg"
+      ],
+      "diagram_index": 4,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [
+        "Rf7 分支停在 Bxf7；Kh8 分支停在 Qh3，原书未列完整后续。"
+      ],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 47,
+        "mate_in": 9,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    },
+    {
+      "id": "ch08-432",
+      "number": 432,
+      "points": 5,
+      "fen": "6rk/1p6/3p2q1/P1pPbQ1p/R3n3/6PP/1r5N/4BR1K b - - 0 1",
+      "turn": "black",
+      "goal": {
+        "type": "checkmate"
+      },
+      "book_lines": [
+        {
+          "san": [
+            "Nxg3+",
+            "Bxg3",
+            "Rxh2+",
+            "Kxh2",
+            "Qxg3+",
+            "Kh1",
+            "Qg2#"
+          ],
+          "uci": [
+            "e4g3",
+            "e1g3",
+            "b2h2",
+            "h1h2",
+            "g6g3",
+            "h2h1",
+            "g3g2"
+          ],
+          "transcribed_notation": "Nxg3+! Bxg3 Rxh2+! Kxh2 Qxg3+ Kh1 Qg2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Nxg3+",
+            "Bxg3",
+            "Rxh2+",
+            "Kxh2",
+            "Qxg3+",
+            "Kh1",
+            "Qh2#"
+          ],
+          "uci": [
+            "e4g3",
+            "e1g3",
+            "b2h2",
+            "h1h2",
+            "g6g3",
+            "h2h1",
+            "g3h2"
+          ],
+          "transcribed_notation": "Nxg3+! Bxg3 Rxh2+! Kxh2 Qxg3+ Kh1 Qh2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Nxg3+",
+            "Bxg3",
+            "Rxh2+",
+            "Bxh2",
+            "Qg2#"
+          ],
+          "uci": [
+            "e4g3",
+            "e1g3",
+            "b2h2",
+            "g3h2",
+            "g6g2"
+          ],
+          "transcribed_notation": "Nxg3+! Bxg3 Rxh2+! Bxh2 Qg2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Nxg3+",
+            "Kg1",
+            "Ne2+",
+            "Kf2",
+            "Qg3#"
+          ],
+          "uci": [
+            "e4g3",
+            "h1g1",
+            "g3e2",
+            "g1f2",
+            "g6g3"
+          ],
+          "transcribed_notation": "Nxg3+! Kg1 Ne2++ Kf2 Qg3#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        },
+        {
+          "san": [
+            "Nxg3+",
+            "Kg1",
+            "Ne2+",
+            "Kh1",
+            "Qg2#"
+          ],
+          "uci": [
+            "e4g3",
+            "h1g1",
+            "g3e2",
+            "g1h1",
+            "g6g2"
+          ],
+          "transcribed_notation": "Nxg3+! Kg1 Ne2++ Kh1 Qg2#",
+          "ends_in_checkmate": true,
+          "source": "book"
+        }
+      ],
+      "source_image": "images/9.jpg",
+      "answer_image": "images/答案5.jpg",
+      "answer_images": [
+        "images/答案5.jpg"
+      ],
+      "diagram_index": 5,
+      "validation": {
+        "legal_position": true,
+        "book_moves_legal": true,
+        "symbols_valid": true,
+        "photo_reviewed": true
+      },
+      "notes": [],
+      "engine_check": {
+        "engine": "Stockfish 19",
+        "search_seconds": 0.75,
+        "depth": 245,
+        "mate_in": 4,
+        "score_cp": null,
+        "source": "engine_supplement_not_book"
+      }
+    }
+  ]
+}

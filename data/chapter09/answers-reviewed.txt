@@ -1,0 +1,48 @@
+433 Rh8+! Kxh8 Qh7#
+434 Rh6! gxh6 Qh7#
+435 Qh8+! Nxh8 Rxh4#
+436 Rxh7+! Kf8 Rh8+ Kg7 Qxg6+ Kxh8 Qh7# | Rxh7+! Kf8 Rh8+ Kf7 Qxg6# | Rxh7+! Kxh7 Qxg6+ Kh8 Qh7# | Rxh7+! Kg8 Qxg6+ Kf8 Qg7# | Rxh7+! Kg8 Qxg6+ Kf8 Rh8#
+437 Qxg6+! hxg6 Rh8+ Kg7 R2h7# | Qxg6+! Kf8 Rh7 | Qxg6+! Rg7 Qxe6+ Kf8 Rh7
+438 Rh8+! Kxh8 Qh1+ Kg8 Qh7#
+439 Qxh2+! Kf1 Qh1# | Qxh2+! Kxh2 Rh6+ Kg1 Rh1#
+440 Rxh2+! Kxh2 Qh4+ Kg2 Qh3# | Rxh2+! Kxh2 Qh4+ Kg2 Bh3+ Kh2 Bf1#
+441 Rxh7+! Rxh7 Rxh7+ Kxh7 Qh6#
+442 Rh8+! Bxh8 Qxh8+ Kf7 Ng5# | Rh8+! Kf7 Ng5#
+443 Rh8+! Kxh8 Qh7# | Rh8+! Bxh8 Qh7+ Kf8 Qxh8#
+444 Rah8! g3 Rh1+ Kg2 R8h2# | Rah8! g4 Rh1+ Kg2 R8h2#
+445 Rh7+! Qxh7 Qf6+ Qg7 Rh1# | Rh7+! Kxh7 Rh1+ Qh6 Qxh6#
+446 Qxh3+! Kxh3 Rh6+
+447 Ra1+! Kxa1 Qa7+ Kb1 Qa2+ Kc1 Qa1#
+448 Qxh7+! Kxh7 Rh4+ Kg8 Rgh3 Be4+ Ka1 g6 Rh8+ Kg7 R3h7# | Qxh7+! Kxh7 Rh4+ Kg8 Rgh3 Be4+ Ka1 Bh7 Rxh7 | Qxh7+! Kxh7 Rh3+
+449 Rh8+! Bxh8 Qh6
+450 Qxh7+! Kxh7 hxg6++ Kg7 Rh7+ Kg8 Rh8+ Kg7 R1h7# | Qxh7+! Kxh7 hxg6++ Kg8 Rh8+
+451 Rh8+! Bxh8 Qh5+ Rg6 Qxg6+ Kf8 Qf7# | Rh8+! Rf8 Qh5# | Rh8+! Bf8 Qh5+ | Rh8+! Bxh8 Qh5+ Kf8 Qxh8# | Rh8+! Bxh8 Qh5+ Rf7 Qxf7# | Rh8+! Bxh8 Qh5+ Rg6 Qxh8+
+452 Qxh7+! Nxh7 Rxh7 Nf4+ Bxf4
+453 Rh8+! Bxh8 Qh1 Re8 Qh7+ Kf8 Qxf7# | Rh8+! Bxh8 Qh1 Re8 Qh7+ Kf8 Qxh8# | Rh8+! Kxh8 Qh1+
+454 Rh8+ Kf7 Bg6+! Rxg6 R1h7+ Rg7 Rxg7# | Rh8+ Kf7 Bg6+! Rxg6 R1h7+ Rg7 Qxg7#
+455 Qxh1+! Kxh1 Bf3+ Kg1 Rh5 | Qxh1+! Kxh1 Bf3+ Kh2 Rh5+ Kg1 Rh1#
+456 Rh3! gxh4 Rg7+ Kh8 Rxh4#
+457 Qxg7+! Kxg7 Rxh7+ Kf8 Rh8+
+458 Qh8+! Bxh8 Rxh8+ Kf7 Ng5# | Qh8+! Kf7 Qxg7# | Qh8+! Kf7 Ng5#
+459 Rh8+! Kxh8 Qh4+ Kg8 Qh7+ Kf8 Bd6+ Re7 Qh8# | Rh8+! Kxh8 Qh3+ Kg8 Qh7+ Kf8 Bd6+ Re7 Qh8#
+460 Rh8+! Kxh8 Qh5+ Kg8 g6 Re8 Qh7+ Kf8 Qh8# | Rh8+! Kxh8 Qh5+ Kg8 g6 Nf6 exf6 Rf6 Qh7+ Kf8 Qh8# | Rh8+! Kf7 Qh5+ g6 Qh7+ Ke8 Qxg6#
+461 Qxh7+! Kxh7 Rh3+ Kg7 Bh6+ Kh7 Bf8+
+462 Rh1+ Kg4 Rh4+! Kxh4 Qf4+ Kh5 Rh1#
+463 Rh2+! Kg1 Ne2+! Kxh2 Qh5+ Kg2 Qh3# | Rh2+! Kxh2 Qh5+ Kg1 Ne2+ Kg2 Qh3# | Rh2+! Kxh2 Qh5+ Kg2 Qh3+ Kg1 Ne2#
+464 Rh7+! Kxh7 Qh4+ Kg6 Qg5+ Kh7 Qh5#
+465 Qh2+! Kxh2 g3+ Kh1 Kg7 Nf3 Rh8+
+466 Qxh2+! Rxh2 Rxh2+ Ke1 Nf3+ Kf1 Ne3# | Qxh2+! Rxh2 Rxh2+ Ke1 Nf3+ Kd1 Ne3# | Qxh2+! Kf1 Ne3+ Ke1 Nf3# | Qxh2+! Ke1 Nf3+ | Qxh2+! Rxh2 Rxh2+ Kg1 Nf3+ Kf1 Ne3# | Qxh2+! Rxh2 Rxh2+ Kf1 Ne3+
+467 Qf3!! cxb7+ Kf5 | Qf3!! Bxf3 gxf3
+468 Qh3 f6 Qh8+ Kf7 g6+! Ke6 Qg8+ Qf7 Qxf7# | Qh3 f6 Qh8+ Kf7 g6+! Kxg6 Qh5# | Qh3 f6 Qh7+
+469 Qh8+! Kf7 Qg7+! Kxg7 Rh7+ Kg8 Rh8+ Kg7 R1h7# | Qh8+! Kf7 Qg7+! Kxg7 Rh7+ Kf8 Rh8+ Kg7 R1h7# | Qh8+! Bxh8 Rxh8+
+470 Qg6+! Rg7 Qxg7+! Kxg7 Rh7+ Kg8 Rh8+ Kg7 R1h7# | Qg6+! hxg6 Rh8+ Kg7 R1h7# | Qg6+! Kh8 Rxh7+ Rxh7 Qxh7# | Qg6+! Kh8 Rxh7+ Rxh7 Rxh7#
+471 Qh5 Bh6 Rg7+! Kxg7 Nf5+ Kg8 Qxh6 | Qh5 Bh6 Rg7+! Kxg7 Nf5+ Rxf5 Qxh6+ Kg8 Qh8# | Qh5 Bh6 Rg7+! Bxg7 Qh7# | Qh5 Bh6 Rg7+! Kh8 Qxh6# | Qh5 Qxg6 Qh8+! Kxh8 Nxg6++ Kg8 Rh8#
+472 Ne4!! Bxe4 Qh7+! Kxh7 Rh3# | Ne4!! dxe4 Rh3 Qh5 gxh5 | Ne4!! g5 Rh3 Bxe4 Bxe4
+473 Qh8+! Bxh8 Rxh8+ Kf7 Bh5+ Kg7 Rg8# | Qh8+! Kf7 Bh5# | Qh8+! Bxh8 Rxh8+ Kg7 Rg8+ Kf7 Bh5#
+474 Qg6! fxg6 hxg6+ Qh7 Rxh7# | Qg6! Rxg6 hxg6+ Kg8 g7
+475 Rh8+! Kxh8 Qh4+ Kg8 Qd8+ Kh7 Ng5+ Kh6 Nxf7+ Kh7 Qh8# | Rh8+! Kxh8 Qh4+ Kg8 Qd8+ Kh7 Ng5+ Kh6 Nxf7+ Kh5 Qh4# | Rh8+! Kxh8 Qh4+ Kg8 Qd8+ Kh7 Ng5+ Kh6 Nxf7+ Kh5 Qg5#
+476 Qh7+! Kxh7 Rh3+ Bh6 Ree3! g5 fxg5 | Qh7+! Kxh7 Rh3+ Kg8 Rh8#
+477 Bf8!! Nd3 Rh8+ Kxh8 Qh6+ | Bf8!! Rxf8 Ne7+ Kg7 Qh6# | Bf8!! Ne6 Rh8+ Kxh8 Qh6+ Kg8 dxe6 | Bf8!! Nh5 Rxh5 gxh5 Qg5+ Kh7 Qh5+ Kg8 Nh6+ Kf8 Qf7# | Bf8!! Nh5 Rxh5 gxh5 Qg5+ Kf8 Qh6+ Kg8 Qh5 Re7 Rh1 Bf6 Qh7+ Kf8 Qh8+! Bxh8 Rxh8#
+478 Rh7!! Kxh7 Qh3+ Bh6 Qxh6+! Kxh6 Re3 Qxe5 Rh3+! Qh5 Rxh5+ gxh5 g5# | Rh7!! Kxh7 Qh3+ Kg8 Qh8# | Rh7!! Kxh7 Qh3+ Bh6 Qxh6+! Kxh6 Re3 Rd1+ Kg2
+479 Qh1+! Bxh1 Rxh1+ Rg1 Rxg1+ Kxg1 Bf3 | Qh1+! Bxh1 Rxh1+ Kg2 R8h2#
+480 Qxf8+! Kxf8 Rh6 Ne7 Rh8+ Ng8 Rxg8+! Kxg8 Rh1 | Qxf8+! Rxf8 Rh6 | Qxf8+! Kxf8 Rh6 Ne7 Rh8+ Ng8 Rdh1
