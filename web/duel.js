@@ -43,8 +43,23 @@ function updateTimePreset(){const m=+$('minutes').value,i=+$('increment').value;
 $('minutes').oninput=updateTimePreset;$('increment').oninput=updateTimePreset;updateTimePreset();
 function timeMode(){const unlimited=document.querySelector('[name=timing]:checked').value==='unlimited';$('timeFields').hidden=unlimited;$('unlimitedHint').hidden=!unlimited;$('minutes').disabled=unlimited;$('increment').disabled=unlimited;}
 document.querySelectorAll('[name=timing]').forEach(input=>input.onchange=timeMode);timeMode();
+let engineReplyTimer=null;
+function cancelEngineReply(){
+ if(engineReplyTimer!==null)clearTimeout(engineReplyTimer);
+ engineReplyTimer=null;
+}
+function scheduleEngineReply(){
+ cancelEngineReply();
+ if(!state||state.result||state.turn===state.human||engineFailed)return;
+ const id=state.id,fen=state.fen;
+ const delay=2000+Math.floor(Math.random()*3001);
+ engineReplyTimer=setTimeout(()=>{
+  engineReplyTimer=null;
+  if(!busy&&state?.id===id&&state.fen===fen&&!state.result&&state.turn!==state.human&&!engineFailed)api('engine');
+ },delay);
+}
 async function api(action,extra={}){
- if(busy)return;busy=true;const before=state?.history.length||0;
+ if(busy)return;cancelEngineReply();busy=true;const before=state?.history.length||0;
  $('start').disabled=true;$('newSettings').disabled=true;$('resign').disabled=true;$('claim').disabled=true;$('retry').hidden=true;
  try{
   const response=await fetch('/api/duel',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:state?.id||savedId(),action,...extra})});
@@ -57,10 +72,10 @@ async function api(action,extra={}){
   if(state){$('gameError').textContent=error.message;$('retry').hidden=false;engineFailed=true;}
   else{$('error').textContent=error.message;}
  }finally{busy=false;$('start').disabled=false;$('newSettings').disabled=false;$('resign').disabled=Boolean(state?.result);$('claim').disabled=false;}
- if(state&&!state.result&&state.turn!==state.human&&!engineFailed&&action!=='new-settings')api('engine');
+ scheduleEngineReply();
 }
 $('newGame').onsubmit=event=>{event.preventDefault();if(busy)return;practiceSound.unlock();practiceSound.stop();engineFailed=false;const form=new FormData(event.target);api('new',{level:+form.get('level'),color:form.get('color'),minutes:form.get('timing')==='timed'?+$('minutes').value:0,increment:form.get('timing')==='timed'?+$('increment').value:0});};
-$('newSettings').onclick=()=>{if(state&&!state.result&&!confirm('结束当前对局并重新设置？'))return;practiceSound.stop();$('setup').hidden=false;$('game').hidden=true;state=null;try{sessionStorage.removeItem('duelId');}catch{};};
+$('newSettings').onclick=()=>{if(state&&!state.result&&!confirm('结束当前对局并重新设置？'))return;cancelEngineReply();practiceSound.stop();$('setup').hidden=false;$('game').hidden=true;state=null;try{sessionStorage.removeItem('duelId');}catch{};};
 $('resign').onclick=()=>{if(confirm('确定认输吗？'))api('resign');};$('claim').onclick=()=>api('claim');$('retry').onclick=()=>{engineFailed=false;api('state');};
 function render(){
  const human=state.human==='white'?'白方':'黑方',other=state.human==='white'?'黑方':'白方';

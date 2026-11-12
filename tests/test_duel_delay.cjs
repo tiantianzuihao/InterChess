@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../web/duel.js'),'utf8');
+let callback,delay,calls=0,random=0;
+const context=vm.createContext({Math:{floor:Math.floor,random:()=>random},setTimeout:(fn,ms)=>{callback=fn;delay=ms;return 1;},clearTimeout:()=>{callback=null;},api:action=>{assert.equal(action,'engine');calls++;}});
+vm.runInContext("let state={id:'one',fen:'position',human:'white',turn:'black',result:null},busy=false,engineFailed=false;"+source.slice(source.indexOf('let engineReplyTimer='),source.indexOf('async function api(')),context);
+vm.runInContext('scheduleEngineReply()',context);assert.equal(delay,2000);assert.equal(calls,0);callback();assert.equal(calls,1);
+random=.999999;vm.runInContext('scheduleEngineReply()',context);assert.equal(delay,5000);
+vm.runInContext('cancelEngineReply()',context);assert.equal(callback,null);
+vm.runInContext('scheduleEngineReply()',context);const stale=callback;vm.runInContext("state={...state,id:'two'}",context);callback=null;stale();assert.equal(calls,1);
+vm.runInContext("state.result={winner:'white'};scheduleEngineReply()",context);assert.equal(callback,null);
+vm.runInContext("state.result=null;state.turn='white';scheduleEngineReply()",context);assert.equal(callback,null);
+console.log('Engine delay: 2–5 seconds, cancellation, stale games, game over and human turn passed');
