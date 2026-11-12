@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const source=fs.readFileSync(require('node:path').join(__dirname,'../web/practice.js'),'utf8');
+const toast={hidden:true};let timer,draws=0,sounds=0;
+const context=vm.createContext({$:()=>toast,draw:()=>draws++,practiceSound:{playRetry:()=>sounds++},clearTimeout:()=>{timer=null;},setTimeout:fn=>{timer=fn;return 1;}});
+vm.runInContext('let selected=null,state={};'+source.slice(source.indexOf('let retrySquare='),source.indexOf('function lock')),context);
+vm.runInContext("showRetry('g1f3')",context);
+assert.equal(vm.runInContext('selected',context),'g1');assert.equal(vm.runInContext('retrySquare',context),'f3');assert.equal(toast.hidden,false);assert.equal(sounds,1);
+timer();assert.equal(toast.hidden,true);assert.equal(vm.runInContext('retrySquare',context),null);assert.equal(vm.runInContext('selected',context),'g1');assert.equal(draws,2);
+vm.runInContext("showRetry('b1c3');clearRetry()",context);assert.equal(timer,null);assert.equal(toast.hidden,true);
+console.log('Retry feedback: retains piece selection, highlights target, expires and cancels cleanly');

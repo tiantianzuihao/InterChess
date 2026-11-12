@@ -12,17 +12,31 @@ function saveProgress(){
  const next=state.complete&&!state.pending?Math.min(index+1,order.length-1):index;
  try{localStorage.setItem(progressKey,JSON.stringify(order[next]));}catch{} // Storage restrictions must not block practice.
 }
-function formatMove(move){return (move.color==='white'?'白方':'黑方')+'：'+symbols[move.piece]+' '+move.from+'->'+move.to+(move.san.includes('#')?' 将死':move.san.includes('+')?' 将军':move.captured?' 吃 '+symbols[move.captured]:'')+'（'+move.san+'）';}
+function formatMove(move){return (move.color==='white'?'白方':'黑方')+'：'+symbols[move.piece]+' '+move.from+'->'+move.to+(move.captured?' 吃 '+symbols[move.captured]:'')+(move.san.includes('#')?' 将死':move.san.includes('+')?' 将军':'')+'（'+move.san+'）';}
+function renderMove(row,move){
+ row.replaceChildren();
+ for(const part of formatMove(move).split(/([♔♕♖♗♘♙♚♛♜♝♞♟])/u)){
+  if(/^[♔♕♖♗♘♙♚♛♜♝♞♟]$/u.test(part)){const piece=document.createElement('span');piece.className='inline-piece';piece.textContent=part;row.append(piece);}else row.append(document.createTextNode(part));
+ }
+}
+let retrySquare=null,retryTimer=null;
+function clearRetry(){clearTimeout(retryTimer);retrySquare=null;$('boardRetry').hidden=true;}
+function showRetry(move){
+ clearRetry();selected=move.slice(0,2);retrySquare=move.slice(2,4);draw();
+ $('boardRetry').hidden=false;practiceSound.playRetry();
+ retryTimer=setTimeout(()=>{retrySquare=null;$('boardRetry').hidden=true;if(state)draw();},1000);
+}
 function lock(value){busy=value;for(const id of ['chapter','puzzle','prev','next','restart','reveal'])$(id).disabled=value;}
 async function request(action='state',move='',password=''){
  if(action==='move')practiceSound.unlock();
  const previousCount=state?.history.length||0;
- lock(true);selected=null;
+ clearRetry();lock(true);selected=null;
  try{
   const response=await fetch('/api/practice',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({chapter:+$('chapter').value,number:+$('puzzle').value,history:state?.history||[],action,move,password})});
   const data=await response.json();if(!response.ok)throw Error(data.error||'请求失败');state=data;render();saveProgress();
+  if(action==='move'&&data.status==='unlisted')showRetry(move);
   if(action==='move'&&data.status==='correct')practiceSound.playMoves(data.move_details.slice(previousCount));
-  if(action==='reveal'){$('answer').replaceChildren();for(const [i,line] of data.answers.entries()){const p=document.createElement('p');p.textContent='变化 '+(i+1)+'：';$('answer').append(p);const details=data.answer_details[i];for(const move of details){const row=document.createElement('p');row.textContent=formatMove(move);$('answer').append(row);}if(!details.length||state.pending){const original=document.createElement('p');original.textContent='书中记录：'+line;$('answer').append(original);}}for(const note of data.notes){const p=document.createElement('p');p.textContent=note;$('answer').append(p);}$('answer').hidden=false;$('answerPasswordDialog').close();}
+  if(action==='reveal'){$('answer').replaceChildren();for(const [i,line] of data.answers.entries()){const p=document.createElement('p');p.textContent='变化 '+(i+1)+'：';$('answer').append(p);const details=data.answer_details[i];for(const move of details){const row=document.createElement('p');renderMove(row,move);$('answer').append(row);}if(!details.length||state.pending){const original=document.createElement('p');original.textContent='书中记录：'+line;$('answer').append(original);}}for(const note of data.notes){const p=document.createElement('p');p.textContent=note;$('answer').append(p);}$('answer').hidden=false;$('answerPasswordDialog').close();}
  }catch(error){if(action==='reveal'){$('passwordError').textContent=error.message;$('answerPassword').value='';$('answerPassword').focus();}else{$('feedback').textContent=error.message;}}finally{lock(false);}
 }
 function render(){
@@ -31,7 +45,7 @@ function render(){
  $('feedback').textContent=state.pending?'本题题面已核对，答案待复核，暂不判题。':state.complete?(state.checkmate?'将死！你完成了这道题。':'已完成书中变化！可查看答案说明或进入下一题。'):state.status==='illegal'?'这步不符合走棋规则，请重新选择。':state.status==='unlisted'?'这步未收录在书中答案里，需要进一步分析；不判为错棋。你可以换一种走法或查看答案。':state.status==='correct'?'这步符合书中答案，电脑已应手。请继续。':'轮到你了，试着找到关键一步。';
  $('message').replaceChildren();
  for(const move of state.move_details){
-  const row=document.createElement('div');row.textContent=formatMove(move);$('message').append(row);
+  const row=document.createElement('div');renderMove(row,move);$('message').append(row);
  }
  if(!state.complete&&!state.pending){
   const row=document.createElement('div');
@@ -53,6 +67,7 @@ function draw(){
   const label=document.createElement('small');label.textContent=square;b.append(label);
   if(lastSquares.includes(square)){b.classList.add('computer-last');b.setAttribute('aria-label',b.getAttribute('aria-label')+(square===lastSquares[0]?'，电脑上一步起点':'，电脑上一步终点'));}
   if(selected===square)b.classList.add('selected');
+  if(retrySquare===square)b.classList.add('retry-square');
   if(state.checked_king===square){b.classList.add('king-check');b.setAttribute('aria-label',b.getAttribute('aria-label')+(state.checkmate?'，将死':'，被将军'));}
   if(state.checkmate&&state.checked_king===square){const badge=document.createElement('span');badge.className='move-badge mate-badge';badge.textContent='#';badge.title='将死';b.append(badge);}
   if(state.last_capture?.square===square){const badge=document.createElement('span');badge.className='move-badge capture-badge';badge.textContent=symbols[state.last_capture.piece];badge.title='吃掉 '+symbols[state.last_capture.piece];badge.setAttribute('aria-label',badge.title);b.append(badge);}
@@ -67,6 +82,7 @@ function draw(){
 }
 function choose(square){
  if(busy||!state)return;
+ clearRetry();
  const piece=state.pieces[square],ours=piece&&((piece===piece.toUpperCase())===(state.orientation==='white'));
  if(ours){
   selected=selected===square?null:square;draw();
@@ -78,7 +94,7 @@ function choose(square){
  if(options.some(m=>m.length===5)){promotionPrefix=prefix;$('promotion').showModal();return;}
  request('move',prefix);
 }
-function reset(){practiceSound.stop();state=null;selected=null;$('answer').hidden=true;request();}
+function reset(){clearRetry();practiceSound.stop();state=null;selected=null;$('answer').hidden=true;request();}
 function chapterChanged(number){const c=catalog.find(c=>c.number===+$('chapter').value);$('puzzle').replaceChildren();for(const p of c.puzzles){const o=document.createElement('option');o.value=p.number;o.textContent='第 '+p.number+' 题'+(p.pending?'（待复核）':'');$('puzzle').append(o);}if(typeof number==='number'&&c.puzzles.some(p=>p.number===number))$('puzzle').value=number;reset();}
 function updateSoundButton(){$('soundToggle').textContent=practiceSound.enabled?'声音：开':'声音：关';$('soundToggle').setAttribute('aria-pressed',String(practiceSound.enabled));}
 $('soundToggle').onclick=()=>{practiceSound.toggle();updateSoundButton();};updateSoundButton();

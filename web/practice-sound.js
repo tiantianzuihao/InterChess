@@ -23,6 +23,18 @@ class PracticeSound {
  }
  stop(){this.generation++;for(const source of this.sources){try{source.stop();}catch{}}this.sources=[];}
  toggle(){this.enabled=!this.enabled;if(!this.enabled)this.stop();else this.unlock();try{localStorage.setItem('practiceSound',this.enabled?'on':'off');}catch{} }
+ playRetry(){
+  this.stop();
+  if(!this.enabled||!this.context||this.context.state!=='running')return;
+  try{
+   const source=this.context.createOscillator(),gain=this.context.createGain(),now=this.context.currentTime;
+   source.type='sine';source.frequency.setValueAtTime(440,now);source.frequency.exponentialRampToValueAtTime(330,now+.18);
+   gain.gain.setValueAtTime(0,now);gain.gain.linearRampToValueAtTime(.08,now+.025);gain.gain.exponentialRampToValueAtTime(.001,now+.22);
+   source.connect(gain);gain.connect(this.context.destination);this.sources.push(source);
+   source.onended=()=>{source.disconnect();gain.disconnect();this.sources=this.sources.filter(s=>s!==source);};
+   source.start(now);source.stop(now+.23);
+  }catch{}
+ }
  async playMoves(moves){
   this.stop();const generation=this.generation;
   if(!this.enabled||!this.context)return;

@@ -1,0 +1,78 @@
+/* Size the board from the browser viewport, including Retina display scaling. */
+:root{--page-pad:clamp(16px,1.4vw,52px);--gap:clamp(20px,1.5vw,56px);--board-size:min(48vw,calc(100dvh - var(--page-pad) - var(--page-pad) - 64px))}
+body{font-size:clamp(18px,1.05vw,32px)}
+main{max-width:none;margin:0;padding:var(--page-pad)}
+main>nav{min-height:32px;margin:0 0 22px!important;gap:28px!important;align-items:center}
+.play-layout{display:grid;grid-template-columns:minmax(0,1fr) var(--board-size) minmax(0,1fr);gap:var(--gap);align-items:start}
+.play-tools,.play-info{min-width:0;padding:clamp(12px,1.3vw,40px);border-radius:18px;background:#ffffff80;max-height:calc(100dvh - 110px);overflow:auto;scrollbar-gutter:stable}
+.play-tools h1{font-size:1.6em;margin:0 0 24px}.play-info h2{font-size:1.4em;margin-top:0}
+.muted{font-size:.85em;line-height:1.8}
+.play-tools .controls{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:24px 0}
+.play-tools select{grid-column:1/-1;width:100%;min-width:0}
+button,select{font-size:1em;min-height:48px;padding:12px 16px}
+.board-stage{width:var(--board-size);min-width:0}
+#board{width:100%;height:auto;aspect-ratio:1;grid-template-rows:repeat(8,minmax(0,1fr));container-type:inline-size}
+#board button{min-height:0;min-width:0;font-size:10cqw;line-height:1;padding:0}
+#board small{font-size:clamp(10px,1.55cqw,24px)}
+.move-badge{width:4.8cqw;height:4.8cqw;font-size:3.8cqw;right:-.5cqw;top:-.6cqw}
+#message,#answer,#history{font-size:1em;line-height:1.9;padding:20px;overflow-wrap:anywhere}
+#history{max-height:none}#status{font-size:1em}
+.play-info .controls{margin:20px 0}
+.duel-page{--board-size:min(48vw,calc(100dvh - var(--page-pad) - var(--page-pad) - 64px))}
+.clock{font-size:1.15em;margin:0;padding:12px 18px;min-height:52px}
+.board-stage .clock:first-child{margin-bottom:12px}.board-stage .clock:last-child{margin-top:12px}
+#setup{max-width:1000px;font-size:1em}#setup h1{font-size:1.7em}
+@media(max-width:1100px){
+ :root,.duel-page{--board-size:min(55vw,calc(100dvh - 210px))}
+ .play-layout{grid-template-columns:var(--board-size) minmax(0,1fr)}
+ .play-tools{grid-column:1/-1;max-height:none;padding:12px 18px}
+ .play-tools h1,.play-tools>p{display:none}
+ .play-tools .controls{display:flex;flex-wrap:wrap;margin:0;gap:10px}
+ .play-tools select{width:auto;max-width:100%}
+ .play-info{max-height:none;padding:16px}
+}
+@media(max-width:700px){
+ :root,.duel-page{--board-size:calc(100vw - 32px)}
+ .play-layout{grid-template-columns:minmax(0,1fr);gap:20px}
+ .play-tools{grid-column:auto}.play-tools .controls{display:grid;grid-template-columns:1fr 1fr}
+ .play-tools select{width:100%}.board-stage{justify-self:center}
+ main>nav{font-size:16px;gap:18px!important}body{font-size:18px}
+}
+
+.inline-piece{display:inline-block;font-family:"Segoe UI Symbol","Apple Symbols","DejaVu Sans",serif;font-size:2em;line-height:1;vertical-align:-.18em;margin:0 .1em}
+.player-cards{display:grid;gap:16px;margin:24px 0}.player-cards .clock{display:flex;flex-wrap:wrap;gap:12px}.player-cards strong{font-size:1.4em}
+
+.play-tools button{white-space:nowrap}
+
+/* Keep the password field proportionate to the enlarged interface. */
+#answerPasswordDialog{width:min(90vw,520px);padding:clamp(24px,2vw,48px);border-radius:20px;color:#243a30;background:#fff}
+#answerPasswordDialog::backdrop{background:#15241d55}
+#answerPasswordForm>p:first-child{margin-top:0;font-size:1.15em;font-weight:600}
+#answerPassword{display:block;box-sizing:border-box;width:100%;min-height:72px;line-height:1.4;font-family:inherit;font-size:1.8em;letter-spacing:.35em;text-align:center;padding:12px 16px;border:2px solid #aabca2;border-radius:12px;background:#f8faf5;color:#243a30}
+#answerPassword:focus{outline:3px solid #638a3633;border-color:#638a36}
+#passwordError{min-height:1.5em;margin:12px 0;color:#b53636;font-size:.9em}
+.password-actions{display:grid;grid-template-columns:1fr 1fr;gap:14px}.password-actions button{margin:0}#confirmAnswer{background:#638a36;color:white;border-color:#638a36}
+.board-stage{position:relative}
+#boardRetry{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);padding:.6em 1.2em;border:2px solid #dd9a36;border-radius:16px;background:#fff4dfed;color:#805115;font-size:1.3em;font-weight:600;box-shadow:0 8px 24px #38260922;pointer-events:none;z-index:5;white-space:nowrap}
+#board button.retry-square{animation:retry-pulse .45s ease-in-out 2;box-shadow:inset 0 0 0 5px #e39b31}
+@keyframes retry-pulse{0%,100%{box-shadow:inset 0 0 0 5px #e39b31}50%{box-shadow:inset 0 0 0 5px #e39b3120}}
+@media(prefers-reduced-motion:reduce){#board button.retry-square{animation:none}}
+/* Larger setup labels, with time and opponent settings side by side. */
+#setup{max-width:1500px;margin:0 auto;padding:clamp(20px,1.5vw,36px)}
+#setup>p{margin:0 0 8px}#setup h1{margin:0 0 16px}
+#setup .time-tabs small,#setup .time-input>span,#setup .time-input>div>span,#setup .preset-heading,#setup .time-note{font-size:.9em}
+#setup .time-settings legend,#setup #presets button{font-size:1em}
+#setup .time-input input[type=number]{font-size:1.5em}
+#setup .time-inputs{margin:16px 0;gap:12px}#setup .time-note{margin-top:10px;line-height:1.5}
+#setup .time-settings{padding:16px}#setup fieldset{margin:0;min-width:0}
+#setup .choices label{padding:10px 14px}#setup .muted{margin:12px 0;line-height:1.5}
+#setup #newGame{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:24px 32px;align-items:start}
+#setup .time-settings{grid-column:1;grid-row:1/4}
+#setup #newGame>fieldset:not(.time-settings){grid-column:2}
+#setup #error{grid-column:2;margin:0}#setup #error:empty{display:none}
+#setup #start{grid-column:2;align-self:end;width:100%}
+@media(max-width:900px){#setup #newGame{display:flex;flex-direction:column;gap:20px}#setup fieldset{width:100%}#setup #presets{grid-template-columns:repeat(5,minmax(0,1fr))}}
+
+/* Captures belong to the player who made the capture, below their clock. */
+.player-captures{flex:0 0 100%;display:flex;flex-wrap:wrap;gap:4px 6px;padding-top:10px;border-top:1px solid #647c6530;color:#243a30}
+.captured-piece{font-family:"Segoe UI Symbol","Apple Symbols","DejaVu Sans",serif;font-size:1.8em;line-height:1.15;display:inline-block}
