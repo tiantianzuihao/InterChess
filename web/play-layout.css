@@ -2,7 +2,7 @@
 :root{--page-pad:clamp(16px,1.4vw,52px);--gap:clamp(20px,1.5vw,56px);--board-size:min(48vw,calc(100dvh - var(--page-pad) - var(--page-pad) - 64px))}
 body{font-size:clamp(18px,1.05vw,32px)}
 main{max-width:none;margin:0;padding:var(--page-pad)}
-main>nav{min-height:32px;margin:0 0 22px!important;gap:28px!important;align-items:center}
+main>nav{display:flex;flex-wrap:wrap;min-height:32px;margin:0 0 22px!important;gap:28px!important;align-items:center}
 .play-layout{display:grid;grid-template-columns:minmax(0,1fr) var(--board-size) minmax(0,1fr);gap:var(--gap);align-items:start}
 .play-tools,.play-info{min-width:0;padding:clamp(12px,1.3vw,40px);border-radius:18px;background:#ffffff80;max-height:calc(100dvh - 110px);overflow:auto;scrollbar-gutter:stable}
 .play-tools h1{font-size:1.6em;margin:0 0 24px}.play-info h2{font-size:1.4em;margin-top:0}
@@ -76,3 +76,9 @@ button,select{font-size:1em;min-height:48px;padding:12px 16px}
 /* Captures belong to the player who made the capture, below their clock. */
 .player-captures{flex:0 0 100%;display:flex;flex-wrap:wrap;gap:4px 6px;padding-top:10px;border-top:1px solid #647c6530;color:#243a30}
 .captured-piece{font-family:"Segoe UI Symbol","Apple Symbols","DejaVu Sans",serif;font-size:1.8em;line-height:1.15;display:inline-block}
+
+/* Shared navigation for both playing modes. */
+main>nav a{display:inline-block;color:#296449;text-decoration:none;padding:0 0 6px;border-bottom:3px solid transparent;line-height:1.5}
+main>nav a.active{font-weight:700;color:#243a30;border-bottom-color:#678c40}
+main>nav a:hover{color:#527837}
+main>nav a:focus-visible{outline:2px solid #638a36;outline-offset:4px;border-radius:2px}
